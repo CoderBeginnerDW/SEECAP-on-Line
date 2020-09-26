@@ -1,0 +1,79 @@
+--- 
+files: 
+  certificate: 
+    belbanet_seecap_com_d8cad_4e499_1548287999_b7f268064031b0410e6a97dfbe73fe2a: 
+      created: '1540497787'
+      domains: 
+        - belbanet.seecap.com
+        - www.belbanet.seecap.com
+      friendly_name: Cert for “belbanet.seecap.com”
+      id: belbanet_seecap_com_d8cad_4e499_1548287999_b7f268064031b0410e6a97dfbe73fe2a
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: d8cadeb3f86d4373f206c79ead375737912e16d8081e548d04b9d9ed4629184e24b0be76eba764665050beb89f9b3de72020fc2e5608a4e5b08f85b1895c852ff3c210796edce2251c9eb67fd47bbe74d84a0d05b181a7846cbf4207187a4e59c5bacadb4afed0d240728180b42475b412bf87d2489a109e605b44f3d099b801b9afb8124ad824f35d565f9541673af881273513721746736d4bded293f185e2956abe4123ebdaf1e88ef8df58d3c9df44c5784f2a54dc483618180a62e0bb7de2f906c0e3237fdf9ef35841291e739fe43bf1a89776e17570cca75b47ae4234c9665521da8e3a0c7a5f78bbcf83581ad91c03f3fec915981a5f7062d634e499
+      modulus_length: 2048
+      not_after: '1548287999'
+      not_before: '1540425600'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: belbanet.seecap.com
+      validation_type: dv
+    seecap_com_ceea6_bc41b_1548287999_e83f4d3b9ac5317400f38d237dd25c81: 
+      created: '1540497786'
+      domains: 
+        - seecap.com
+        - autodiscover.seecap.com
+        - cpanel.seecap.com
+        - mail.seecap.com
+        - webdisk.seecap.com
+        - webmail.seecap.com
+        - www.seecap.com
+      friendly_name: Cert for “seecap.com”
+      id: seecap_com_ceea6_bc41b_1548287999_e83f4d3b9ac5317400f38d237dd25c81
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: ceea6cd775cde60202bf0ce478dd44d413dea6afe56a427a1118849b652a6a01f31adf77c6ba91db8b99bdf73a8f46b34f365559a72a2b97f46e8edc532cd935d916dfc5d25dfc8d88327f5d2871e96fce83e5310754844416ba23c9abfcdb75e7e2d4034a4d603445f9765cab68a545c40d2dc47ae97792a8f68c541bb2203ffe03a9672ca6e5da283f94a4fe84b52e5314cb771f9ed4b036c19786220b6623c86ceede0f828f4fa04e865954eb82b333a91e32c29fda3974097cab96110bad240ed68297c86e03fd19fda39c280bb0a6067c66ecdddc48a0eba9b8b7b2c8273d4bffda8f0435eb55e83f3aec9ada918482dd3b82205e37f3d9c547b3abc41b
+      modulus_length: 2048
+      not_after: '1548287999'
+      not_before: '1540425600'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: seecap.com
+      validation_type: dv
+  key: 
+    ceea6_bc41b_97de1b515a8e762b7ecba640e1f3c31e: 
+      created: '1540497786'
+      friendly_name: Key for “seecap.com”
+      id: ceea6_bc41b_97de1b515a8e762b7ecba640e1f3c31e
+      modulus: ceea6cd775cde60202bf0ce478dd44d413dea6afe56a427a1118849b652a6a01f31adf77c6ba91db8b99bdf73a8f46b34f365559a72a2b97f46e8edc532cd935d916dfc5d25dfc8d88327f5d2871e96fce83e5310754844416ba23c9abfcdb75e7e2d4034a4d603445f9765cab68a545c40d2dc47ae97792a8f68c541bb2203ffe03a9672ca6e5da283f94a4fe84b52e5314cb771f9ed4b036c19786220b6623c86ceede0f828f4fa04e865954eb82b333a91e32c29fda3974097cab96110bad240ed68297c86e03fd19fda39c280bb0a6067c66ecdddc48a0eba9b8b7b2c8273d4bffda8f0435eb55e83f3aec9ada918482dd3b82205e37f3d9c547b3abc41b
+      modulus_length: 2048
+    d8cad_4e499_3087006c037f82886db5c68fc93cd2f7: 
+      created: '1540497787'
+      friendly_name: Key for “belbanet.seecap.com”
+      id: d8cad_4e499_3087006c037f82886db5c68fc93cd2f7
+      modulus: d8cadeb3f86d4373f206c79ead375737912e16d8081e548d04b9d9ed4629184e24b0be76eba764665050beb89f9b3de72020fc2e5608a4e5b08f85b1895c852ff3c210796edce2251c9eb67fd47bbe74d84a0d05b181a7846cbf4207187a4e59c5bacadb4afed0d240728180b42475b412bf87d2489a109e605b44f3d099b801b9afb8124ad824f35d565f9541673af881273513721746736d4bded293f185e2956abe4123ebdaf1e88ef8df58d3c9df44c5784f2a54dc483618180a62e0bb7de2f906c0e3237fdf9ef35841291e739fe43bf1a89776e17570cca75b47ae4234c9665521da8e3a0c7a5f78bbcf83581ad91c03f3fec915981a5f7062d634e499
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      ceea6cd775cde60202bf0ce478dd44d413dea6afe56a427a1118849b652a6a01f31adf77c6ba91db8b99bdf73a8f46b34f365559a72a2b97f46e8edc532cd935d916dfc5d25dfc8d88327f5d2871e96fce83e5310754844416ba23c9abfcdb75e7e2d4034a4d603445f9765cab68a545c40d2dc47ae97792a8f68c541bb2203ffe03a9672ca6e5da283f94a4fe84b52e5314cb771f9ed4b036c19786220b6623c86ceede0f828f4fa04e865954eb82b333a91e32c29fda3974097cab96110bad240ed68297c86e03fd19fda39c280bb0a6067c66ecdddc48a0eba9b8b7b2c8273d4bffda8f0435eb55e83f3aec9ada918482dd3b82205e37f3d9c547b3abc41b: 
+        seecap_com_ceea6_bc41b_1548287999_e83f4d3b9ac5317400f38d237dd25c81: ~
+      d8cadeb3f86d4373f206c79ead375737912e16d8081e548d04b9d9ed4629184e24b0be76eba764665050beb89f9b3de72020fc2e5608a4e5b08f85b1895c852ff3c210796edce2251c9eb67fd47bbe74d84a0d05b181a7846cbf4207187a4e59c5bacadb4afed0d240728180b42475b412bf87d2489a109e605b44f3d099b801b9afb8124ad824f35d565f9541673af881273513721746736d4bded293f185e2956abe4123ebdaf1e88ef8df58d3c9df44c5784f2a54dc483618180a62e0bb7de2f906c0e3237fdf9ef35841291e739fe43bf1a89776e17570cca75b47ae4234c9665521da8e3a0c7a5f78bbcf83581ad91c03f3fec915981a5f7062d634e499: 
+        belbanet_seecap_com_d8cad_4e499_1548287999_b7f268064031b0410e6a97dfbe73fe2a: ~
+    subject.commonName: 
+      belbanet.seecap.com: 
+        belbanet_seecap_com_d8cad_4e499_1548287999_b7f268064031b0410e6a97dfbe73fe2a: ~
+      seecap.com: 
+        seecap_com_ceea6_bc41b_1548287999_e83f4d3b9ac5317400f38d237dd25c81: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “belbanet.seecap.com”: belbanet_seecap_com_d8cad_4e499_1548287999_b7f268064031b0410e6a97dfbe73fe2a
+      Cert for “seecap.com”: seecap_com_ceea6_bc41b_1548287999_e83f4d3b9ac5317400f38d237dd25c81
+  key: 
+    friendly_name: 
+      Key for “belbanet.seecap.com”: d8cad_4e499_3087006c037f82886db5c68fc93cd2f7
+      Key for “seecap.com”: ceea6_bc41b_97de1b515a8e762b7ecba640e1f3c31e
+    modulus: 
+      ceea6cd775cde60202bf0ce478dd44d413dea6afe56a427a1118849b652a6a01f31adf77c6ba91db8b99bdf73a8f46b34f365559a72a2b97f46e8edc532cd935d916dfc5d25dfc8d88327f5d2871e96fce83e5310754844416ba23c9abfcdb75e7e2d4034a4d603445f9765cab68a545c40d2dc47ae97792a8f68c541bb2203ffe03a9672ca6e5da283f94a4fe84b52e5314cb771f9ed4b036c19786220b6623c86ceede0f828f4fa04e865954eb82b333a91e32c29fda3974097cab96110bad240ed68297c86e03fd19fda39c280bb0a6067c66ecdddc48a0eba9b8b7b2c8273d4bffda8f0435eb55e83f3aec9ada918482dd3b82205e37f3d9c547b3abc41b: ceea6_bc41b_97de1b515a8e762b7ecba640e1f3c31e
+      d8cadeb3f86d4373f206c79ead375737912e16d8081e548d04b9d9ed4629184e24b0be76eba764665050beb89f9b3de72020fc2e5608a4e5b08f85b1895c852ff3c210796edce2251c9eb67fd47bbe74d84a0d05b181a7846cbf4207187a4e59c5bacadb4afed0d240728180b42475b412bf87d2489a109e605b44f3d099b801b9afb8124ad824f35d565f9541673af881273513721746736d4bded293f185e2956abe4123ebdaf1e88ef8df58d3c9df44c5784f2a54dc483618180a62e0bb7de2f906c0e3237fdf9ef35841291e739fe43bf1a89776e17570cca75b47ae4234c9665521da8e3a0c7a5f78bbcf83581ad91c03f3fec915981a5f7062d634e499: d8cad_4e499_3087006c037f82886db5c68fc93cd2f7

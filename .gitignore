@@ -1,0 +1,15 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example.gitignore files : https://github.com/github/gitignore
+_notes/
+/bower_components/
+/node_modules/
+/images/
+/_english/_images-english/
+/_english/_documentation-english/
+/_russian/_dokumentacija_ruski/
+/_serbian/_audio/
+/_serbian/_dokumentation-serbian/
+/_serbian/_images-serbian/
+/_serbian/_video/
+/img/

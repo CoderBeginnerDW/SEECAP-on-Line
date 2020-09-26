@@ -1,0 +1,70 @@
+*,  *:after,  *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* Effect 1: Brackets */
+
+.cl-effect-1 a::before,  .cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+.cl-effect-1 a:hover::before,  .cl-effect-1 a:hover::after,  .cl-effect-1 a:focus::before,  .cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+/* Effect 3: bottom line slides/fades in */
+
+.cl-effect-3 a {
+	position: relative;
+	min-width: 100px;
+	padding: 9px 0 8px!important;
+	color: #fff;
+	margin-left: 0.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 0.7em;
+	text-indent: 0px;
+}
+.cl-effect-3 a::after {
+	position: absolute;
+	top: 80%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: rgba(250,250,250,1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+.cl-effect-3 a:hover::after,  .cl-effect-3 a:focus::after {
+	text-indent: 0;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}

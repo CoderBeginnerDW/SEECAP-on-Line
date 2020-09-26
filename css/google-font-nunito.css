@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'nunito regular';
+	src: url('../public_html/fonts/nunito_regular/nunito-regular-webfont.eot');
+	src: url('../public_html/fonts/nunito_regular/nunito-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../public_html/fonts/nunito_regular/nunito-regular-webfont.woff') format('woff'), url('../public_html/fonts/nunito_regular/nunito-regular-webfont.ttf') format('truetype'), url('../public_html/fonts/nunito_regular/nunito-regular-webfont.svg') format('svg');
+}
+@font-face {
+	font-family: 'nunito bold';
+	src: url('../public_html/fonts/nunito_bold/nunito-bold-webfont.eot');
+	src: url('../public_html/fonts/nunito_bold/nunito-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../public_html/fonts/nunito_bold/nunito-bold-webfont.woff') format('woff'), url('../public_html/fonts/nunito_bold/nunito-bold-webfont.ttf') format('truetype'), url('../public_html/fonts/nunito_bold/nunito-bold-webfont.svg') format('svg');
+}

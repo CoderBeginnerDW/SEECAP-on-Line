@@ -1,0 +1,671 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea {
+	color: #333;
+}
+html, body {height:100%;}
+body { margin: 0; font-size: 1em; line-height: 1.4; font-family: 'Roboto', sans-serif;
+	background-color: fff;}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		6;
+	dw-num-cols-tablet:		9;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	15;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+a {
+	text-decoration:none;
+}
+h1 {
+	color: #b1b1b8;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: left;
+	margin-left:0.4em;
+}
+h1 span {
+	color:#888891;
+	font-size: 2.5em;
+	line-height:1.5em;
+	
+}
+h2 {
+	color: #58585F;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-bottom:0.1em;
+	line-height:1.2em;
+	text-transform:uppercase;
+	text-align: left !important;	
+}
+
+
+
+h3 {
+	color:#b1b1b8;
+	font-weight:400;
+	text-transform:uppercase;
+	font-size:0.9em;
+	letter-spacing:0.2em;
+}
+p {
+	line-height:1.5em;
+	font-size:1.1em;
+	font-weight:300;
+}
+#red {
+	color:#f21d25;
+	margin-right:0.2em;
+	font-weight:700;
+}	
+#bigred {
+	color:#f21d25;
+	margin-right:0.2em;
+	font-weight:700;
+	font-size:1.5em;
+	padding:0.2em 0;
+}
+.wrap {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	width: 100%;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	min-height: 100%;
+}
+/* Mobile Layout: 480px and below. */
+ .bgcontainer {
+	z-index: 10;
+	position: relative;
+	width: 120%;
+	height: 100%;
+	overflow: auto;
+	padding-bottom: 150px;
+	margin: 0 auto;
+	clear: none;
+	float: none;
+	text-align: justify;
+} 
+.naslov_pozadina {
+	width: 100%;
+	background-color: #F7F8F9;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	margin-bottom:2em;
+}
+.naslov {
+	margin-left: auto;
+	margin-right: auto;
+	width: 89.0217%;
+	clear: none;
+	float: none;	
+}  
+.arhiva {
+	margin-bottom:1.5em;
+	margin-top:1.5em;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #E8EBEE;
+	padding-top:1.5em;
+	text-align:right;
+	
+}
+.arhiva a {
+	font-size:1.6em;
+	color:#303030;
+	font-weight:400;
+}
+.arhiva a:hover {
+	color:#f21d25;
+}
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 89.0217%;
+	padding-left: 0.9891%;
+	padding-right: 0.9891%;
+	clear: none;
+	float: none;
+}
+.vest {
+	margin-bottom:3em;
+}
+
+
+.vest a {
+	color: #0000FF;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.vest a:hover {
+	color:#f21d25;
+}
+
+.vest h2 {
+	text-align: center !important;
+}
+.vest_solo {
+	margin-bottom:1em;
+}
+.vest_solo a {
+	color: #0000FF;
+	font-size: 1.1em;
+	font-weight: 300;
+
+}
+
+.vest_solo ul li {
+	line-height:1.5em;
+	font-size:1.1em;
+	font-weight:300;
+}
+
+.vest_solo a span {
+	color: #0000FF;
+	text-decoration: none;
+	font-style: normal !important;
+}
+
+.vest_solo p span {
+	font-style: italic;	
+	}
+	
+.vest_solo a:hover {
+	color:#f21d25;
+}
+
+.vest_solo a:hover span {
+	color:#f21d25;
+	font-style: normal;	
+	}
+
+.vest_solo img {
+	width:100%;
+}
+.vest_slika {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+.vest_tekst {
+width: 100%;
+margin-bottom:1em;
+}
+.more {
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:45%
+}
+
+.more1 {
+	margin-top: 2em;
+	margin-bottom:2em;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:16%
+}
+
+.more2 {
+	margin-top: 2em;
+	margin-bottom:2em;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:19%
+}
+
+.more3 {
+	margin-top: 2em;
+	margin-bottom:2em;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:17%
+}
+
+.more4 {
+	margin-top: 2em;
+	margin-bottom:2em;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:20%
+}
+
+.more5 {
+	margin-top: 2em;
+	margin-bottom:2em;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:26%
+}
+
+.more6 {
+	margin-top: 2em;
+	margin-bottom:2em;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:25%
+}
+
+.more7 {
+	margin-top: 2em;
+	margin-bottom:2em;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+	width:31%
+}
+
+
+.more a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more1 a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more2 a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more3 a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.more1 a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.more2 a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.more3 a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.more4 a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more4 a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.more5 a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more5 a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.more6 a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more6 a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.more7 a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+
+.more7 a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+
+
+.vesti_slike {
+	margin-top:1em;
+	margin-bottom:2em;
+}
+.vesti_slikelight {
+	clear: none;
+	margin-left: 2.2222%;
+	width: 48.8888%;
+	margin-bottom: 2.2222%;
+}
+
+.grafikon {
+	width: 98%;
+	padding: 1%;
+	height: auto;
+	
+}
+
+.grafikon img {
+	width: 100% !important;
+	height: auto;
+}
+
+ol.d {list-style-type:lower-alpha;}
+
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 91.6521%;
+	padding-left: 0.6739%;
+	padding-right: 0.6739%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+.naslov {
+	width: 91.6521%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+.vest {
+	margin-bottom:3em;
+}
+.vest_solo {
+	margin-bottom:1em;
+}
+.naslov_pozadina {
+		width: 100%;
+	background-color: #F7F8F9;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	margin-bottom:2em;
+
+}
+.vest_slika {
+margin-top:2em;
+clear: none;
+margin-left: 1.0989%;
+width: 49.4505%;
+}
+.vest_tekst {
+clear: none;
+width: 49.4505%;
+}
+.more {
+	margin-top: 3em;
+	float: left;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+}
+.more a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+.more a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+.vesti_slike {
+	margin-bottom:2em;
+
+}
+.vesti_slikelight {
+clear: both;
+width:19.2%;
+margin-left:1%;
+margin-bottom:1%;
+}
+
+.vest_solo img {
+	width:100%
+}
+	
+.grafikon {
+	width: 50%;
+	padding: 1%;
+	height: auto;
+	float: left;
+}
+
+.grafikon img {
+	width: 100% !important;
+	height: auto;
+}	
+
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1170px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+.naslov {
+	width: 100%;
+	max-width: 1170px;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+.vest {
+	margin-bottom:3em;
+}
+.vest_solo {
+	margin-bottom:1em;	
+}
+#border {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #E8EBEE;
+	padding-top:1.5em;
+}
+.naslov_pozadina {
+		width: 100%;
+	background-color: #F7F8F9;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	margin-bottom:2em;
+
+}
+.vest_slika {
+width: 41.0256%;
+margin-left: 1.0989%;
+clear: none;
+}
+.vest_tekst {
+width: 57.8754%;
+padding-right:3em;
+}
+	
+.vest_tekst-1 {
+width: 100%;
+padding-right:3em;
+}
+	
+.vest_tekst-1 h2 {
+text-align: center !important;
+	}
+	
+.more {
+	margin-top: 3em;
+	float: left;
+	background-color: #F0F2F4;
+	background-image: url(../images/decor_inside.png);
+	background-repeat: repeat;
+	padding: 0.6em 1.8em;
+}
+.more a {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #58585F;
+}
+.more a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+.vesti_slike {
+margin-bottom:2em;
+max-width:1170px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.vesti_slikelight {
+width:19.2%;
+margin-left:1%;
+margin-bottom:1%;
+clear: none;
+}
+
+.vest_solo img {
+	margin-left:1em;
+	margin-right:1em;
+	float:right;
+	width:50%;	
+}
+	
+	.grafikon {
+	width: 50%;
+	padding: 1%;
+	height: auto;
+	float: left;
+}
+
+.grafikon img {
+	width: 100% !important;
+	height: auto;
+}
+	
+	
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}

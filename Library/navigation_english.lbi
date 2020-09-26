@@ -1,0 +1,164 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<ul class="collapse">										<!-- collapse class for collapse the drop down -->
+
+    	<li class="title .hide_desktop"> <a href="#"></a> </li>		<!-- website title class -->
+
+        
+
+        <li><a href="../_english/index-eng.html">HOME</a></li>
+
+        <li><a href="">OUR SERVICES</a>
+
+        
+
+        	<ul class="drop-down one-column hover-fade">				<!-- first level drop down -->
+
+            	
+
+            	<li> <a href="#">CORPORATE</a> <i class="fa fa-angle-right"></i>      <!-- fontAwesome icon -->
+
+                
+
+                	<ul class="drop-down one-column hover-expand">         <!-- second level drop down -->
+
+                    	<li><a href="../_english/corporate_finance.html">Corporate finance</a></li>
+
+                    	<li><a href="../_english/fdi.html">FDI and market entry support</a></li>
+
+                    	<li><a href="../_english/privatisation.html">Privatisation</a></li>
+
+                    	<li><a href="../_english/restructuring.html">Restructuring</a></li>
+
+                    	
+
+                    </ul>
+
+                
+
+                </li>
+
+                
+
+                 	<li> <a href="#">M&amp;A</a> <i class="fa fa-angle-right"></i>      <!-- fontAwesome icon -->
+
+                
+
+                	<ul class="drop-down one-column hover-expand">         <!-- second level drop down -->
+
+                    	<li><a href="../_english/m&a-eng.html">M&amp;A</a></li>
+						
+						<li><a href="../_english/acquisition_advisory_progres.html">Acquisition process </a></li>
+
+                    	<li><a href="../_english/transaction-financing.html">Transaction financing</a></li>
+
+                    	<li><a href="../_english/post-acquisition-services.html">Post-acquisition services</a></li>                     	
+
+                    </ul>
+
+                
+
+                </li>
+
+                
+
+                <li> <a href="#">PRIVATE EQUITY</a> <i class="fa fa-angle-right"></i>      <!-- fontAwesome icon -->
+
+                
+
+                	<ul class="drop-down one-column hover-expand">         <!-- second level drop down -->
+
+                    	<li><a href="../_english/private_equity.html">Private equity</a></li>                    	
+
+                    </ul>
+
+                
+
+                </li>                   
+
+                
+
+            	 <li> <a href="#">REAL ESTATE</a> <i class="fa fa-angle-right"></i>      <!-- fontAwesome icon -->
+
+                
+
+                	<ul class="drop-down one-column hover-expand">         <!-- second level drop down -->
+
+                    	<li><a href="../_english/real_estate.html">Real estate</a></li>
+
+                        <li><a href="../_english/real-estate-acquisition.html">Real estate acquisition services</a></li>                	
+
+                    </ul>                
+
+                </li>				
+
+               	 <li> <a href="#">HOSPITALITY</a> <i class="fa fa-angle-right"></i>      <!-- fontAwesome icon -->
+
+                
+                	<ul class="drop-down one-column hover-expand">         <!-- second level drop down -->
+
+                    	<li><a href="../_english/hotel-and-tourism-finance.html">Hospitality finance</a></li>
+
+                        <li><a href="../_english/hotel_sale_and_purchase.html">Hotel sale and purchase</a></li> 
+						
+						<li><a href="../_english/health_spa_services.html">Health spa</a></li>
+
+                    </ul>                
+
+                </li>
+				
+
+                 <li> <a href="#">PROJECT FINANCE</a> <i class="fa fa-angle-right"></i>      <!-- fontAwesome icon -->
+
+                
+
+                	<ul class="drop-down one-column hover-expand">         <!-- second level drop down -->
+
+                    	<li><a href="../_english/project_finance.html">Project finance</a></li>               	
+
+                    </ul>
+
+                
+
+                </li>
+
+                
+
+                 <li> <a href="#">VALUATION</a> <i class="fa fa-angle-right"></i>      <!-- fontAwesome icon -->
+
+                
+
+                	<ul class="drop-down one-column hover-expand">         <!-- second level drop down -->
+
+                    	<li><a href="../_english/valuation.html">Valuation</a></li>               	
+
+                    </ul>
+
+                
+
+                </li>
+
+                
+
+            </ul>
+
+        
+
+        </li>
+
+     
+
+		<li><a href="../_english/business_opportunities.html">BUSINESS OPPORTUNITIES</a></li>
+
+        <li><a href="../_english/news_and_posts.html">NEWS AND POSTS</a></li>
+
+        <li><a href="../_english/our_experience.html">OUR EXPERIENCE</a></li>
+
+        <li><a href="../_english/contact_us.html">CONTACT US</a></li>
+
+
+
+        
+
+		
+
+    </ul>
