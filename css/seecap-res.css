@@ -339,18 +339,18 @@ float : right;
 padding-bottom : 30px;
 }
 .more {
-margin-top : 1em;
-float : left;
-background-color : #F0F2F4;
-background-image : url(../images/decor_inside.png);
-background-repeat : repeat;
-padding : 0.6em 1.8em;
+    margin-top : 1em;
+    float : left;
+    background-color : #4245DC;
+    background-image : url(../images/decor_inside.png);
+    background-repeat : repeat;
+    padding : 0.6em 1.8em;
 }
 .more a {
-font-size : 0.75em;
-font-weight : 700;
-letter-spacing : 0.1em;
-color : #58585F;
+    font-size : 0.75em;
+    font-weight : 700;
+    letter-spacing : 0.1em;
+    color : #FFFFFF;
 }
 .more a:hover {
 border-bottom-width : 2px;
