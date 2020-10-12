@@ -6,7 +6,7 @@
 
                 <div class="footer_uzi_img">
 
-                    <img src="../images/logospea.png">
+                    <img src="../images/logospea.png" alt="SPEA logo">
 
                 </div>
 
@@ -16,7 +16,7 @@
                        
                         <li><a href="https://www.linkedin.com/company/18016802" target="_blank"><i class="fa fa-linkedin" id="social"></i></a></li>
 
-                        <li><a href="https://twitter.com/SEECAPLocal"><i class="fa fa-twitter" id="social"></i></a></li>
+                        <li><a href="https://twitter.com/SEECAPLocal"><i class="fa fa-twitter" id="twitter"></i></a></li>
 
                     </ul>
 
@@ -46,7 +46,7 @@
 
             <div class="footer1">
 
-				<p>Autorska prava ©SEECAP Konsalting doo 2001-2019.</p>
+				<p>Autorska prava ©SEECAP Konsalting doo 2001-2020.</p>
 
             </div>
 
