@@ -1,292 +1,270 @@
-
-
-
-.boxedcontainer		{	max-width: 100%; margin:auto; margin-top:0em; }
-
+.boxedcontainer {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 0em;
+}
 /*********************************************
 	-	SETTINGS FOR BANNER CONTAINERS	-
 **********************************************/
-
-.tp-banner-container{
-	width: 100%;
-	position: relative;
-	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
-	box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.75);
+.tp-banner-container {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.75);
 }
-
-.tp-banner{
-	width:100%;
-	position:relative;
+.tp-banner {
+    width: 100%;
+    position: relative;
 }
-
 .tp-banner-fullscreen-container {
-		width:100%;
-		position:relative;
-		padding:0;
+    width: 100%;
+    position: relative;
+    padding: 0;
 }
 .main {
-	width:1170px;
-	margin-left:auto;
-	margin-right:auto;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logobg {
-	width:100%;
-	background-color: #fff;
+    width: 100%;
+    background-color: #fff;
 }
 .logo {
-	max-width: 1170px;
-	margin: auto;
-	padding-bottom: 0.5em;
-	padding-left: 30px;
-	/* [disabled]padding-right: 30px; */
-	padding-top: 0.5em;
+    max-width: 1170px;
+    margin: auto;
+    padding-bottom: 0.5em;
+    padding-left: 30px;
+    /* [disabled]padding-right: 30px; */
+    padding-top: 0.5em;
 }
-
-
 .logo_veci {
-	max-width: 100%;
-	background-color: #FFFFFF;
+    max-width: 100%;
+    background-color: #FFFFFF;
 }
-
-
-
 .footerbg {
-	width: 100%;
-	background-color: #737779;
-	height: 150px;
-	z-index: 10;
-	position: absolute;
-	bottom: 0px;
-
+    width: 100%;
+    background-color: #737779;
+    height: 150px;
+    z-index: 10;
+    position: absolute;
+    bottom: 0px;
 }
 .footerbg1 {
-	width:100%;
-	background-color:#3e4142;
+    width: 100%;
+    background-color: #3e4142;
 }
 .footer {
-	max-width: 1170px;
-	text-align: center;
-	padding-top: 0.4em;
-	padding-bottom: 2em;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: 1170px;
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer ul {
-	padding-top:1.8em;
-	margin-left:auto;
-	margin-right:auto;
-	margin:0;
-	padding-left:0;
-	padding-bottom:1em;
+    padding-top: 1.8em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 1em;
 }
 .footer ul li {
-	display:inline;
-	list-style: none;
-	margin-left:0.2em;
-	margin-right:0.2em;
+    display: inline;
+    list-style: none;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
 }
-.footer ul li a{
-	display: inline;
-	margin-left: 0em;
-	padding-right: 0.5em;
-	list-style: none;
-	color: #fff;
-	font-size: 0.8em;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 0.1em;
+.footer ul li a {
+    display: inline;
+    margin-left: 0em;
+    padding-right: 0.5em;
+    list-style: none;
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1em;
 }
 .footer ul li a:hover {
-	color:#adb0b1;
+    color: #adb0b1;
 }
-	
 .footer p {
-	color: #95999b;
-	font-weight: 400;
-	font-size: 0.6em;
-	margin-bottom: 0.8em;
-	text-align:center;
-	}
+    color: #95999b;
+    font-weight: 400;
+    font-size: 0.6em;
+    margin-bottom: 0.8em;
+    text-align: center;
+}
 .footer a {
-	color:#fff;
+    color: #fff;
 }
 .footer a:hover {
-	text-decoration:underline;
-	
+    text-decoration: underline;
 }
-	
-
-
 .footer1 {
-	max-width: 1170px;
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: 1170px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer1 ul {
-	padding-top:0.5em;
-	margin-left:auto;
-	margin-right:auto;
-	margin:0;
-	padding-left:0;
-	padding-bottom:1em;
+    padding-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 1em;
 }
 .footer1 ul li {
-	display:inline;
-	list-style: none;
+    display: inline;
+    list-style: none;
 }
-.footer1 ul li a{
-	display: inline;
-	margin-left: 0em;
-	padding-right: 0.5em;
-	list-style: none;
-	color: #fff;
-	font-size: 0.8em;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 0.2em;
+.footer1 ul li a {
+    display: inline;
+    margin-left: 0em;
+    padding-right: 0.5em;
+    list-style: none;
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2em;
 }
-
 .footer1 ul li a:hover {
-	color:#adb0b1;
+    color: #adb0b1;
 }
-	
 .footer1 p {
-	color: #95999b;
-	font-weight: 400;
-	font-size: 0.6em;
-	margin-bottom: 0.8em;
-	text-align:center;
-	}
+    color: #95999b;
+    font-weight: 400;
+    font-size: 0.6em;
+    margin-bottom: 0.8em;
+    text-align: center;
+}
 .footer1 a {
-	color:#fff;
+    color: #fff;
 }
 .footer1 a:hover {
-	text-decoration:underline;		
+    text-decoration: underline;
 }
 .footer_uzi {
-	padding-left: 0%;
-	padding-right: 0%;
-	padding-top: 0%;
-	padding-bottom: 2em;
-	margin-top: 1em;
-	margin-left: auto;
-	margin-right: auto;
-	display:inline;
-	height:70px;
-	width:100%;	
-	}
-
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    height: 70px;
+    width: 100%;
+}
 .footer_uzi_img {
-	float: left;
-	width: 130px;
-	height: 80px;
-	margin: 0px;
-	padding: 0px;
-	text-align: left;	
-	}
-	
+    float: left;
+    width: 130px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
 .footer_uzi_nav {
-	float:right;
-	width:160px;
-	display:inline;	
-	margin:0px;
-	padding:0px;
-	}
-	
+    float: right;
+    width: 160px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
 .footer_uzi_nav2 {
-	display:inline;
-	margin-left:auto;
-	margin-right:auto;
-	padding:0px;
-	width:50%;
-	} 
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 50%;
+}
 .download {
-		float:right;
-		
+    float: right;
 }
 .download img {
-	padding:0;
-	margin:0;
+    padding: 0;
+    margin: 0;
 }
 .download p {
-	font-weight: 300;
-	text-transform:uppercase;
-	display:inline;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline;
 }
 .download a {
-	font-weight: 300;
-	text-transform:uppercase;
-	display:inline;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline;
 }
 .download a:hover {
-	text-decoration:underline;
+    text-decoration: underline;
 }
 .download p a {
-	color: #D62C16;
-	text-transform:none;
-	font-size:0.9em;
-}	
+    color: #D62C16;
+    text-transform: none;
+    font-size: 0.9em;
+}
 #fa {
-	color: #B7B7B7;
-	font-weight: 300;
-	margin-right: 0.5em;
-	margin-left: 0.2em;
+    color: #B7B7B7;
+    font-weight: 300;
+    margin-right: 0.5em;
+    margin-left: 0.2em;
 }
 #social {
-	font-size:1.5em;
+    font-size: 1.5em;
+}
+#twitter {
+    font-size: 1.5em;
 }
 .logospea {
-	margin-top: 0;
+    margin-top: 0;
 }
 .jezici {
-	font-size: 0.7em !important;
-	max-width: 250px;
-	float: right;
-	display: inline;
-	margin-right: 0.8em;
-	margin-top: 10px;
-	padding: 0.7em !important;
-	position: relative;
-	background-color: #999;
-	z-index: 99999;
-	}
-
-
+    font-size: 0.7em !important;
+    max-width: 250px;
+    float: right;
+    display: inline;
+    margin-right: 0.8em;
+    margin-top: 10px;
+    padding: 0.7em !important;
+    position: relative;
+    background-color: #999;
+    z-index: 99999;
+}
 @media only screen and (max-width: 1023px) {
-	
-	.logo img {
-		width: 60% !important;
-	}
-	
-	.logo {
-	max-width: 100%;
-	margin: auto;
-	padding-bottom: 0.5em;
-	padding-left: 30px;
-	/* [disabled]padding-right: 30px; */
-	padding-top: 0.5em;
-}
-
-	.logo_veci {
-	height: 90px;
-}
-	.logobg {
-	height: 190px !important;
-}
-	.jezici {
-	font-size: 1em !important;
-	max-width: 23%;
-	float: right;
-	display: inline;
-	margin-right: 0.8em;
-	margin-top: 0;
-	padding: 0.7em !important;
-	position: relative;
-	background-color: #999;
-	z-index: 99999;
-	}
+    .logo img {
+        width: 60% !important;
+    }
+    .logo {
+        max-width: 100%;
+        margin: auto;
+        padding-bottom: 0.5em;
+        padding-left: 30px;
+        /* [disabled]padding-right: 30px; */
+        padding-top: 0.5em;
+    }
+    .logo_veci {
+        height: 90px;
+    }
+    .logobg {
+        height: 190px !important;
+    }
+    .jezici {
+        font-size: 1em !important;
+        max-width: 23%;
+        float: right;
+        display: inline;
+        margin-right: 0.8em;
+        margin-top: 0;
+        padding: 0.7em !important;
+        position: relative;
+        background-color: #999;
+        z-index: 99999;
+    }
 }
