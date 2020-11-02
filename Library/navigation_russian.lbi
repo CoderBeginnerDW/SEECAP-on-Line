@@ -1,0 +1,79 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="flat-mega-menu"> <!-- flat-mega-menu class -->
+    
+    <label for="mobile-button"> <i class="fa fa-bars"></i> </label>
+    <!-- mobile click button to show menu -->
+    
+    <input id="mobile-button" type="checkbox">
+    <ul class="collapse">
+      <!-- collapse class for collapse the drop down -->
+      
+      <li class="title .hide_desktop"> <a href="#"></a> </li>
+      <!-- website title class -->
+      
+      <li><a href="../_russian/index-ru.html">ГЛАВНАЯ</a></li>
+      <li><a href="">НАШИ УСЛУГИ</a>
+        <ul class="drop-down one-column hover-fade">
+          <!-- first level drop down -->
+          
+          <li> <a href="#">Корпоративные</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
+              
+              <li><a href="../_russian/Корпоративное_финанcирование.html">Корпоративное финанcирование</a></li>
+              <li><a href="../_russian/Прямые_иностранные_инвестиции.html">Прямые иностранные инвестиции (FDI)</a></li>
+              <li><a href="../_russian/Приватизация.html">Приватизация</a></li>
+              <li><a href="../_russian/Реструктуризация.html">Реструктуризация</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Слияния и поглощения (M&A)</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
+              
+              <li><a href="../_russian/Слияния_и_поглощения.html">Слияния и поглощения (M&A)</a></li>
+              <li><a href="../_russian/Финансирование_транзакций.html">Финансирование транзакций</a></li>
+              <li><a href="../_russian/Услуги_после_приобретения.html">Услуги после приобретения</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Фонды прямых инвестиций</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
+              
+              <li><a href="../_russian/Фонды_прямых_инвестиций.html">Фонды прямых инвестиций</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Недвижимость</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
+              
+              <li><a href="../_russian/Недвижимость.html">Недвижимость</a></li>
+              <li><a href="../_russian/услуги-финансирования-гостиничного-и-ресторанного-бизнеса.html">Услуги финансирования гостиничного и ресторанного бизнеса</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Проектное финансирование</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
+              
+              <li><a href="../_russian/Проектное_финансирование.html">Проектное финансирование</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Оценка бизнеса</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
+              
+              <li><a href="../_russian/Оценка_бизнеса.html">Оценка бизнеса</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="../_russian/возможности_для_бизнеса.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
+      <li><a href="../_russian/новости_и_сообщения.html">НОВОСТИ И СООБЩЕНИЯ</a></li>
+      <li><a href="../_russian/наш_опыт.html">НАШ ОПЫТ</a></li>
+      <li><a href="../_russian/свяжитесь_с_нами.html">КОНТАКТЫ</a></li>
+    </ul>
+  </div>
