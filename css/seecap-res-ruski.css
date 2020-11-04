@@ -497,13 +497,13 @@ letter-spacing : 0.1em;
 color : #58585F;
 }
 .more-blog2 {
-margin-top : 2em;
-margin-bottom : 2em;
-background-color : #F0F2F4;
-background-image : url(../images/decor_inside.png);
-background-repeat : repeat;
-padding : 0.6em 1.8em;
-width : 21%;
+    margin-top : 2em;
+    margin-bottom : 2em;
+    background-color : #B5CFEA;
+    background-image : url(../images/decor_inside.png);
+    background-repeat : repeat;
+    padding : 0.6em 1.8em;
+    width : 21%;
 }
 .more-blog2 a {
 font-size : 0.75em;
@@ -512,13 +512,13 @@ letter-spacing : 0.1em;
 color : #58585F;
 }
 .more-blog3 {
-margin-top : 2em;
-margin-bottom : 2em;
-background-color : #F0F2F4;
-background-image : url(../images/decor_inside.png);
-background-repeat : repeat;
-padding : 0.6em 1.8em;
-width : 34%;
+    margin-top : 2em;
+    margin-bottom : 2em;
+    background-color : #B5CFEA;
+    background-image : url(../images/decor_inside.png);
+    background-repeat : repeat;
+    padding : 0.6em 1.8em;
+    width : 34%;
 }
 .more-blog3 a {
 font-size : 0.75em;
@@ -544,7 +544,7 @@ color : #58585F;
 .more-blog5 {
 margin-top : 2em;
 margin-bottom : 2em;
-background-color : #F0F2F4;
+background-color : #B5CFEA;
 background-image : url(../images/decor_inside.png);
 background-repeat : repeat;
 padding : 0.6em 1.8em;
