@@ -1,28 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="sr">
+	<head>
+		<meta charset="utf-8" />
 
-<head>
+		<title>reference</title>
 
-<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>reference</title>
+		<link href="../boilerplate.css" rel="stylesheet" type="text/css" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../css/seecap-res.css" rel="stylesheet" type="text/css" />
 
-
-
-<link href="../boilerplate.css" rel="stylesheet" type="text/css">
-
-<link href="../css/seecap-res.css" rel="stylesheet" type="text/css">
-
-<!-- 
+		<!-- 
 
 To learn more about the conditional comments around the html tags at the top of the file:
 
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-
 
 Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
 
@@ -36,1074 +30,1095 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 -->
 
-<!--[if lt IE 9]>
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="../respond.min.js"></script>
 
-<![endif]-->
+		<!-- GOOGLE FONTS -->
 
-<script src="../respond.min.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext"
+			rel="stylesheet"
+			type="text/css"
+		/>
 
-<!-- GOOGLE FONTS -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,latin-ext"
+			rel="stylesheet"
+			type="text/css"
+		/>
 
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-	
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+		<link
+			href="../robotofont/stylesheet.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
 
-<link href="../robotofont/stylesheet.css" rel="stylesheet" type="text/css" />
+		<script
+			type="text/javascript"
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"
+		></script>
 
+		<!-- CSS STYLE-->
 
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../css/style-sajt-usluge.css"
+			media="screen"
+		/>
 
+		<!--navigacija sa efektom, jezici-->
 
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../css/creativelinkeffects/component.css"
+		/>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+		<!--navigacija-->
 
-<!-- CSS STYLE-->
+		<link href="../css/style.css" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" type="text/css" href="../css/style-sajt-usluge.css" media="screen" />
+		<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-<!--navigacija sa efektom, jezici-->
+		<!-- light box -->
 
-	<link rel="stylesheet" type="text/css" href="../css/creativelinkeffects/component.css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
 
-<!--navigacija-->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../js/lightbox/themes/default/jquery.lightbox.css"
+		/>
 
-	<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<!--[if IE 6]>
+			<link
+				rel="stylesheet"
+				type="text/css"
+				href="js/lightbox/themes/default/jquery.lightbox.ie6.css"
+			/>
+		<![endif]-->
 
-	<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<!-- light box -->
-
-  <script type="text/javascript" src="../js/jquery.min.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="../js/lightbox/themes/default/jquery.lightbox.css" />
-
-  <!--[if IE 6]>
-
-  <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
-
-  <![endif]-->
-
-  <!--
+		<!--
 
   <script type="text/javascript" src="src/jquery.lightbox.js"></script>
 
   -->
 
-  <script type="text/javascript" src="../js/lightbox/jquery.lightbox.min.js"></script>
-
-  <script type="text/javascript">
-
-    jQuery(document).ready(function($){
-
-      $('.lightbox').lightbox(); 
-
-    });
-
-  </script>
-
-  
-
-<!--google analytcs--> 
-
- <script>
-
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-
-
-  ga('create', 'UA-50488022-1', 'seecap.com');
-
-  ga('send', 'pageview');
-
-
-
-</script>
-
-  
-
-
-
-</head>
-
-<body>
-
-	<div class="wrap">
-
-        <div class="logobg">
-
-            <div class="logo">
-
-                <div class="jezici">
-
-                    <nav class="cl-effect-3">
-
-                        <a href="../_english/index-eng.html">Eng</a>
-
-						<a href="../_russian/index-ru.html">РУС</a>
-
-                    </nav>
-
-                </div>
-
-                <img src="../images/seecap_logo.png" alt="SEECAP" />
-
-            </div>
-
-        </div>
-
-            <!-- mega menu start -->
-
-            <div class="flat-mega-menu">			<!-- flat-mega-menu class -->
-
-
-
-	<label for="mobile-button"> <i class="fa fa-bars"></i> </label>			<!-- mobile click button to show menu -->
-
-	<input id="mobile-button" type="checkbox"><!-- #BeginLibraryItem "/Library/navigation_serbian.lbi" -->
-
-<ul class="collapse">
-  <!-- collapse class for collapse the drop down -->
-  
-  <li class="title .hide_desktop"> <a href="#"></a> </li>
-  <!-- website title class -->
-  
-  <li> <a href="../index.html">POČETNA</a></li>
-  <li> <a href="#">USLUGE</a>
-    <ul class="drop-down one-column hover-fade">
-      <!-- first level drop down -->
-      
-      <li> <a href="#">KORPORATIVNE FINANSIJE</a> <i class="fa fa-angle-right"></i> 
-        <!-- fontAwesome icon -->
-        
-        <ul class="drop-down one-column hover-expand">
-          <!-- second level drop down -->
-          
-          <li> <a href="m&a.html">Kupovina, prodaja, spajanje, pripajanje i preuzimanje kompanija (M&A)</a> </li>
-          <li> <a href="krediti.html">Krediti</a> </li>
-          <li> <a href="nebankarski_izvori_finansiranja.html">Nebankarski izvori finansiranja</a> </li>
-          <li> <a href="refinansiranje.html">Refinansiranje</a></li>
-          <li> <a href="usluge_restruktuiranje.html">Restrukturiranje</a> </li>
-          <li> <a href="procena_vrednosti_privrednih_drustava.html">Procena vrednosti</a> </li>
-          <li> <a href="finansijsko_modeliranje.html">Finansijsko modeliranje</a></li>
-          <li> <a href="strane_investicije_i_privatizacija.html">Strana ulaganja i privatizacija</a></li>
-        </ul>
-      </li>
-      <li> <a href="#">NEKRETNINE</a> <i class="fa fa-angle-right"></i> 
-        <!-- fontAwesome icon -->
-        <ul class="drop-down one-column hover-expand">
-          <!-- second level drop down -->
-          <li> <a href="finansiranje_nekretnina.html">Finansiranje nekretnina</a></li>
-          <li> <a href="nekretnine_projektno_finanasiranje.html">Projektno finansiranje</a></li>
-          <li> <a href="refinansiranje_kredita_i_projekata_za_investicionu_izgradnju.html">Refinansiranje kredita i projekata za investicionu izgradnju</a></li>
-          <li> <a href="prodaja_imovine.html">Prodaja imovine</a></li>
-          <li> <a href="obezbedjenje-kredita.html">Obezbeđenje kredita za projektno finansiranje</a></li>
-        </ul>
-      </li>
-      <li> <a href="#">UGOSTITELJSTVO</a> <i class="fa fa-angle-right"></i> 
-        <!-- fontAwesome icon -->
-        <ul class="drop-down one-column hover-expand">
-          <!-- second level drop down -->
-          
-          <li> <a href="finansiranja-hotela-i-ugostiteljstva.html">Finansiranje hotela i ugostiteljstva</a></li>
-          <li> <a href="prodaja_hotela.html">Prodaja i kupovina hotela</a></li>
-          <li> <a href="privatizacija_i_finansiranje_banja.html">Privatizacija i finansiranje banja</a></li>
-        </ul>
-      </li>
-      <li> <a href="#">FINANSIRANJE PROJEKATA</a> <i class="fa fa-angle-right"></i> 
-        <!-- fontAwesome icon -->
-        <ul class="drop-down one-column hover-expand">
-          <!-- second level drop down -->
-          <li><a href="finansiranje_velikih_projekata_i_infrastrukture.html">Infrastruktura</a></li>
-          <li><a href="ppp.html">JPP (PPP)</a></li>
-        </ul>
-      </li>
-      <li> <a href="#">MALA I SREDNJA PREDUZEĆA</a> <i class="fa fa-angle-right"></i> 
-        <!-- fontAwesome icon -->
-        
-        <ul class="drop-down one-column hover-expand">
-          <!-- second level drop down -->
-          
-          <li> <a href="podrska_malim_i_srednjim_preduzecima.html">Podrška malim i srednjim preduzećima</a> </li>
-          <li> <a href="belbanet.html">BELBANET</a> </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li> <a href="poslovne_prilike.html">POSLOVNE PRILIKE</a></li>
-  <li> <a href="reference.html">REFERENCE</a></li>
-  <li> <a href="#">BLOG</a>
-    <ul class="drop-down one-column hover-fade">
-      <!-- first level drop down -->
-      
-      <li> <a href="vesti.html">VESTI</a> </li>
-      <li> <a href="saopstenja.html">SAOPŠTENJA</a> </li>
-      <li> <a href="clanci.html">ČLANCI</a> </li>
-    </ul>
-  </li>
-  <li> <a href="kontakt.html">KONTAKT</a></li>
-</ul>
-<!-- #EndLibraryItem --></div>
-
-            <!-- mega menu end -->
-
-    		
-
-         
-
-        	 
-
-        	<div class="naslov_pozadina hide_tablet">
-
-                <div class="naslov">
-
-                	<h1><span>SELEKTIVNE REFERENCE </span></h1>
-
-                </div> 
-
-            </div>
-
-            
-
-            
-
-            <div id="container-ref">          
-
-
-
- <!--red1--> 
-
- 
-
-  <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Dokapitalizacija</h3> </div>
-
- <h2>Gatarić Group International<br /> Derventa i Beograd</h2>
-
- </div>
-
-  <div class="ref_img"> <img src="../images/portfolio/gataric_grup.jpg"  alt=""/></div>
-
- <div class="ref_usluga"> <p>Analiza projekcije konsolidovanih novčanih tokova za period 2014-2019 za potrebe finansijskog investitora<br />
-
- Savetnik finansijskog investitora
-
-</p></div>
-
-<div class="ref_utoku"> <p>2014</p> </div>
-
- </div>
-
- 
-
- 
-
- 
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Privatizacija</h3> </div>
-
- <h2>Specijalne bolnice za rehabilitaciju “Žubor”, Kuršumlijska Banja</h2>
-
- </div>
-
-  <div class="ref_img"> <img src="../images/portfolio/zubor.jpg"  alt=""/></div>
-
- <div class="ref_usluga"> <p> Savetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>U toku</p> </div>
-
- </div>
-
- 
-
-  
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"> <h3>Privatizacija</h3></div> 
-
-<h2>Institut za rehabilitaciju  “Vrmac”<br /> Prčanj, Crna Gora</h2>
-
-</div>
-
-  <div class="ref_img"><img src="../images/portfolio/vrmac.jpg"  alt=""/></div>
-
- <div class="ref_usluga"> <p>Savetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>U toku</p> </div>
-
- </div>
-
-
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2>Elektroizgradnja AD Bajina Bašta</h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač transformatora i elektro postrojenja</p></div>
-
-</div>
-
-  <div class="ref_img"><img src="../images/portfolio/ebb.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>2011</p></div>
-
-</div>
-
-
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Zatvaranje finansijske konstrukcije</h3> </div>
-
- <h2>Bora Kečić specijalni transporti doo<br />
-
-Beograd, Srbija</h2>
-
- </div>
-
-  <div class="ref_img"><img src="../images/portfolio/bora_kecic.jpg"  alt=""/></div>
-
- <div class="ref_usluga">  <p>Kredit od RSD 195.000.000 za akviziciju PZP Kragujevac u stečaju</p></div>
-
-<div class="ref_utoku"><p>2013</p></div>
-
- </div>
-
-
-
-<!--kraj red 1-->
-
- 
-
-<!--pocetak 2 reda--> 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>savetnik kupca</h3></div> 
-
-<h2> Seavus doo<br />Skoplje, Makedonija</h2>
-
-</div>
-
-  <div class="ref_img"><img src="../images/portfolio/seavus.jpg"  alt=""/></div>
-
-<div class="ref_usluga"><p>Akvizicija WAZ Mediengruppe portfolija u Makedoniji</p></div>
-
-<div class="ref_utoku"><p>2011</p></div>
-
- </div>
-
- 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h2></h2></div> 
-
-<h2> Hotel Sirmium Sremska Mitrovica </h2>
-
-<div class="hide_tablet hide_mobile"><p>Hotel sa dve zvezdice</p></div>
-
-</div>
-
-<div class="ref_img"><img src="../images/portfolio/sirmium.jpg"  alt=""/></div>
-
- <div class="ref_usluga"> <p>Savetnik u proceni vrednosti</p></div>
-
-<div class="ref_utoku"> <p>2008</p> </div>
-
- </div>
-
-
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2>Lasta srbija<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>autoprevoznik</p></div>
-
-</div>
-
-<div class="ref_img"><img src="../images/portfolio/lasta.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik kupca</p></div>
-
-<div class="ref_utoku"> <p>2008</p></div>
-
-</div>
-
-
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Prodaja imovine</h3> </div>
-
- <h2>Robne kuće Beograd</h2>
-
- </div>
-
-<div class="ref_img"><img src="../images/portfolio/rk_beograd.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik potencijalnog kupca</p></div>
-
-<div class="ref_utoku"> <p>2007</p></div> 
-
- </div>
-
-<!--kraj reda 2-->
-
-
-
-<!--red 3--> 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2>Rafinerija nafte Beogra<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač maziva i antikorozivnih sredstava</p></div>
-
-</div>
-
-  <div class="ref_img"><img src="../images/portfolio/rafinerija_nafte_beograd.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>2007</p></div> 
-
- </div>
-
- 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Procena vrednosti portfolija nekretnina</h3> </div>
-
-<h2> Lukoil-Beopetrol A.D. Beograd</h2>
-
-<div class="hide_tablet hide_mobile"><p>Naftna kompanija</p></div>
-
-</div>
-
- <div class="ref_img"><img src="../images/portfolio/lukoil.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik kompanije</p></div>
-
-<div class="ref_utoku"> <p>2007</p> </div>
-
- </div>
-
-
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2>Ikarbus, Srbija<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač autobusa</p></div>
-
-</div>
-
- <div class="ref_img"> <img src="../images/portfolio/ikarbus.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik potencijalnog kupca</p></div>
-
-<div class="ref_utoku"> <p><span>2007</span></p></div>
-
-</div>
-
-
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Mezzanine finansiranje</h3> </div>
-
- <h2>Preuzimanja kompanije PZP Beograd</h2>
-
- <div class="hide_tablet hide_mobile"><p>Izgradnja i održavanje putne mreže</p></div>
-
- </div>
-
-   <div class="ref_img"><img src="../images/portfolio/pzp_beograd.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik kompanije u finansiranju akvizicije</p></div>
-
-<div class="ref_utoku"> <p>2007</p></div> 
-
- </div>
-
-<!--kraj reda 3-->
-
-
-
-
-
-<!--red 4--> 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2>“Suva Ruda”, Raška<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>Rudnik olova i cinka</p></div>
-
-</div>
-
-  <div class="ref_img"> <img src="../images/portfolio/suva_ruda.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Savetnik kupca</p></div>
-
-<div class="ref_utoku"> <p>2007</p></div> 
-
- </div>
-
- 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>procena vrednosti kapitala</h3> </div>
-
-<h2> Fabrika maziva FAM Kruševac </h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač ulja i maziva</p></div>
-
-</div>
-
-  <div class="ref_img">   <img src="../images/portfolio/fam.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Procena vrednosti kapitala za kupca
-
-</p></div>
-
-<div class="ref_utoku"> <p>2007</p> </div>
-
- </div>
-
-
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2> Putevi Čačak AD<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>preduzeće za izgradnju i održavanje puteva</p></div>
-
-</div>
-
-  <div class="ref_img">   <img src="../images/portfolio/putevi_cacak.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>SEECAP je savetovao Agenciju za privatizaciju u ovoj transakciji</p></div>
-
-<div class="ref_utoku"> <p>2006</p></div>
-
-</div>
-
-
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Privatizacija</h3> </div>
-
- <h2>Srbijaautoput Beograd <br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>preduzeće za održavanje puteva</p></div>
-
- </div>
-
-  <div class="ref_img"> <img src="../images/portfolio/srbijaautoput.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>SEECAP je savetovao Agenciju za privatizaciju u ovoj transakciji</p></div>
-
-<div class="ref_utoku"> <p>2006</p></div> 
-
- </div>
-
-<!--kraj reda 4-->
-
-
-
- 
-
-<!--red 5--> 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Restrukturiranje i privatizacija</h3>
-
-</div>
-
-<h2> IPM Majdanpek<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač nakita i metalne galanterije</p></div>
-
-</div>
-
-  <div class="ref_img">   <img src="../images/portfolio/ipk.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>SEECAP je savetnik Agencije za privatizaciju u ovoj transakciji</p></div>
-
-<div class="ref_utoku"> <p>2005</p></div> 
-
- </div>
-
- 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Restrukturiranje i privatizacija</h3> </div>
-
-<h2> IMK 29 Novembar<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>Mesna industrija</p></div>
-
-</div>
-
-  <div class="ref_img">   <img src="../images/portfolio/29.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>SEECAP je savetnik Agencije za privatizaciju u restrukturiranju i privatizaciji </p></div>
-
-<div class="ref_utoku"> <p>2005</p> </div>
-
- </div>
-
-
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2> Beopetrol<br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>Naftna kompanija</p></div>
-
-</div>
-
-  <div class="ref_img">   <img src="../images/portfolio/beopetrol.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>Kao član BNP Paribas konzorcijuma SEECAP je savetovao Agenciju za privatizaciju u ovoj transakciji</p></div>
-
-<div class="ref_utoku"> <p>2003</p></div>
-
-</div>
-
-
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Privatizacija</h3> </div>
-
- <h2> Srpska fabrika stakla <br /><br /></h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač optičkog stakla i stakla ručne izrade</p></div>
-
- </div>
-
-  <div class="ref_img">   <img src="../images/portfolio/sfs.jpg"  alt=""/></div>
-
-<div class="ref_usluga"> <p>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1 savetovao Agenciju za privatizaciju u ovoj transakciji koju je finansirala Svetska banka – Pool 10</p></div>
-
-<div class="ref_utoku"> <p>2003</p></div> 
-
- </div>
-
- <!--kraj reda 5--> 
-
-
-
-<!--red 6-->
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>privatizacija</h3>
-
-</div>
-
-<h2> Industrija stakla Pančevo</h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač stakla i medicinske ambalaže</p></div>
-
-</div>
-
-   <img src="../images/portfolio/isp.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1 savetovao Agenciju za privatizaciju u ovoj transakciji koju je finansirala Svetska banka – Pool 10</p></div>
-
-<div class="ref_utoku"> <p>2003</p></div> 
-
- </div>
-
- 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3> privatizacija</h3> </div>
-
-<h2> Keramika Mladenovac</h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač sanitarne i dekorativne keramike</p></div>
-
-</div>
-
-   <img src="../images/portfolio/keramika_mladenovac.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1 savetovao Agenciju za privatizaciju u ovoj transakciji koju je finansirala Svetska banka – Pool 10</p></div>
-
-<div class="ref_utoku"> <p>2003</p> </div>
-
- </div>
-
-
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2> Porcelan Zaječar</h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač porcelana</p></div>
-
-</div>
-
-   <img src="../images/portfolio/porcelan_zajecar.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1 savetovao Agenciju za privatizaciju u ovoj transakciji koju je finansirala Svetska banka – Pool 10</p></div>
-
-<div class="ref_utoku"> <p>2003</p></div>
-
-</div>
-
-
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Privatizacija</h3> </div>
-
- <h2>DP Dušan Petronijević </h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač kartonske ambalaže</p></div>
-
- </div>
-
-   <img src="../images/portfolio/dusan_petronijevic.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1 savetovao Agenciju za privatizaciju u ovoj transakciji koju je finansirala Svetska banka – Pool 11</p></div>
-
-<div class="ref_utoku"> <p>2003</p></div> 
-
- </div>
-
- <!--kraj reda 6--> 
-
-
-
-
-
-<!--red 7-->
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>privatizacija</h3>
-
-</div>
-
-<h2> Kopaonik </h2>
-
-<div class="hide_tablet hide_mobile"><p>Fabrika lesonita</p></div>
-
-</div>
-
-   <img src="../images/portfolio/kopaonik_fabrika_lesonita.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1 savetovao Agenciju za privatizaciju u ovoj transakciji koju je finansirala Svetska banka – Pool 11</p></div>
-
-<div class="ref_utoku"> <p>2003</p></div> 
-
- </div>
-
- 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3> privatizacija</h3> </div>
-
-<h2> Sloga</h2>
-
-<div class="hide_tablet hide_mobile"><p>Fabrika nameštaja</p></div>
-
-</div>
-
-   <img src="../images/portfolio/sloga.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p><span>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1 savetovao Agenciju za privatizaciju u ovoj transakciji koju je finansirala Svetska banka – Pool 11</span></p></div>
-
-<div class="ref_utoku"> <p><span>2003</span></p> </div>
-
- </div>
-
-
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2>Vino Župa</h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođača vina i sokova</p></div>
-
-</div>
-
-   <img src="../images/portfolio/vino_zupa.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>kosavetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>2002</p></div>
-
-</div>
-
-
-
- <div class="ref_uzi">
-
- <div class="ref_naslov">
-
- <div class="ref_naslov_manji"><h3>Privatizacija</h3> </div>
-
- <h2>Mesokombinat</h2>
-
-<div class="hide_tablet hide_mobile"><p>Industrije mesa i delikatesa</p></div>
-
- </div>
-
-   <img src="../images/portfolio/mek.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>kosavetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>2002</p></div> 
-
- </div>
-
-<!--kraj reda 7--> 
-
-
-
-
-
-<!--red 8--> 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>privatizacija</h3>
-
-</div>
-
-<h2> Valjevska pivara</h2>
-
-<div class="hide_tablet hide_mobile"><p>pivara</p></div>
-
-</div>
-
-   <img src="../images/portfolio/valjevska_pivara.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>kosavetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>2002</p></div> 
-
- </div>
-
- 
-
- <div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3> privatizacija</h3> </div>
-
-<h2> Žitopromet</h2>
-
-<div class="hide_tablet hide_mobile"><p>Proizvođač i prerađivač žita</p></div>
-
-</div>
-
-   <img src="../images/portfolio/zitopromet.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>kosavetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>2002</p> </div>
-
- </div>
-
-<!--kraj reda 8--> 
-
-
-
-<!--red 9-->
-
-<div class="ref_uzi">
-
-<div class="ref_naslov"> 
-
-<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
-
-<h2>MIP Požarevac</h2>
-
-<div class="hide_tablet hide_mobile"><p>Industrija mesa i delikatesa</p></div>
-
-</div>
-
-   <img src="../images/portfolio/mip_pozarevac.jpg"  alt=""/>
-
-<div class="ref_usluga"> <p>kosavetnik prodavca</p></div>
-
-<div class="ref_utoku"> <p>2002</p></div>
-
-</div>
-
-
-
-<!--kraj red 9-->
-
-            	
-
- </div>              
-
-            
-
-   <div class="gridContainer clearfix">   </div><!-- #BeginLibraryItem "/Library/footer_serbian.lbi" --><div class="footerbg">
-
-        <div class="footer">
-
-            <div class="footer_uzi">
-
-                <div class="footer_uzi_img">
-
-                    <img src="../images/logospea.png" alt="SPEA logo">
-
-                </div>
-
-                <div class="footer_uzi_nav">
-
-                    <ul>
-                       
-                        <li><a href="https://www.linkedin.com/company/18016802" target="_blank"><i class="fa fa-linkedin" id="social"></i></a></li>
-
-                        <li><a href="https://twitter.com/SEECAPLocal"><i class="fa fa-twitter" id="twitter"></i></a></li>
-
-                    </ul>
-
-                </div>       
-
-                <div class="footer_uzi_nav2">
-
-                    <ul>
-
-                         <li><a href="odricanje_od_odgovornosti.html">Odricanje od pravne odgovornosti</a></li>
-
-                            <li><a href="karijera.html">Karijera</a></li>
-
-                            <li><a href="mapa_sajta.html">mapa sajta</a></li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>     
-
-    
-
-        <div class="footerbg1">
-
-            <div class="footer1">
-
-				<p>Autorska prava ©SEECAP Konsalting doo 2001-2020.</p>
-
-            </div>
-
-        </div>
-
-    </div><!-- #EndLibraryItem --></div>
-
-
-
-</body>
-
+		<script
+			type="text/javascript"
+			src="../js/lightbox/jquery.lightbox.min.js"
+		></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function ($) {
+				$(".lightbox").lightbox();
+			});
+		</script>
+
+		<!--google analytcs-->
+
+		<script>
+			(function (i, s, o, g, r, a, m) {
+				i["GoogleAnalyticsObject"] = r;
+				(i[r] =
+					i[r] ||
+					function () {
+						(i[r].q = i[r].q || []).push(arguments);
+					}),
+					(i[r].l = 1 * new Date());
+				(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m);
+			})(
+				window,
+				document,
+				"script",
+				"//www.google-analytics.com/analytics.js",
+				"ga"
+			);
+
+			ga("create", "UA-50488022-1", "seecap.com");
+
+			ga("send", "pageview");
+		</script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="logobg">
+				<div class="logo">
+					<div class="jezici">
+						<nav class="cl-effect-3">
+							<a href="../_english/index-eng.html">Eng</a>
+
+							<a href="../_russian/index-ru.html">РУС</a>
+						</nav>
+					</div>
+
+					<img src="../images/seecap_logo.png" alt="SEECAP" />
+				</div>
+			</div>
+
+			<!-- mega menu start -->
+
+			<div class="flat-mega-menu">
+				<!-- flat-mega-menu class -->
+
+				<label for="mobile-button"> <i class="fa fa-bars"></i> </label>
+				<!-- mobile click button to show menu -->
+
+				<input
+					id="mobile-button"
+					type="checkbox"
+				/><!-- #BeginLibraryItem "/Library/navigation_serbian.lbi" -->
+
+				<ul class="collapse">
+					<!-- collapse class for collapse the drop down -->
+
+					<li class="title .hide_desktop"><a href="#"></a></li>
+					<!-- website title class -->
+
+					<li><a href="../index.html">POČETNA</a></li>
+					<li>
+						<a href="#">USLUGE</a>
+						<ul class="drop-down one-column hover-fade">
+							<!-- first level drop down -->
+
+							<li>
+								<a href="#">KORPORATIVNE FINANSIJE</a>
+								<i class="fa fa-angle-right"></i>
+								<!-- fontAwesome icon -->
+
+								<ul class="drop-down one-column hover-expand">
+									<!-- second level drop down -->
+
+									<li>
+										<a href="m&a.html"
+											>Kupovina, prodaja, spajanje, pripajanje i preuzimanje
+											kompanija (M&A)</a
+										>
+									</li>
+									<li><a href="krediti.html">Krediti</a></li>
+									<li>
+										<a href="nebankarski_izvori_finansiranja.html"
+											>Nebankarski izvori finansiranja</a
+										>
+									</li>
+									<li><a href="refinansiranje.html">Refinansiranje</a></li>
+									<li>
+										<a href="usluge_restruktuiranje.html">Restrukturiranje</a>
+									</li>
+									<li>
+										<a href="procena_vrednosti_privrednih_drustava.html"
+											>Procena vrednosti</a
+										>
+									</li>
+									<li>
+										<a href="finansijsko_modeliranje.html"
+											>Finansijsko modeliranje</a
+										>
+									</li>
+									<li>
+										<a href="strane_investicije_i_privatizacija.html"
+											>Strana ulaganja i privatizacija</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">NEKRETNINE</a> <i class="fa fa-angle-right"></i>
+								<!-- fontAwesome icon -->
+								<ul class="drop-down one-column hover-expand">
+									<!-- second level drop down -->
+									<li>
+										<a href="finansiranje_nekretnina.html"
+											>Finansiranje nekretnina</a
+										>
+									</li>
+									<li>
+										<a href="nekretnine_projektno_finanasiranje.html"
+											>Projektno finansiranje</a
+										>
+									</li>
+									<li>
+										<a
+											href="refinansiranje_kredita_i_projekata_za_investicionu_izgradnju.html"
+											>Refinansiranje kredita i projekata za investicionu
+											izgradnju</a
+										>
+									</li>
+									<li><a href="prodaja_imovine.html">Prodaja imovine</a></li>
+									<li>
+										<a href="obezbedjenje-kredita.html"
+											>Obezbeđenje kredita za projektno finansiranje</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">UGOSTITELJSTVO</a> <i class="fa fa-angle-right"></i>
+								<!-- fontAwesome icon -->
+								<ul class="drop-down one-column hover-expand">
+									<!-- second level drop down -->
+
+									<li>
+										<a href="finansiranja-hotela-i-ugostiteljstva.html"
+											>Finansiranje hotela i ugostiteljstva</a
+										>
+									</li>
+									<li>
+										<a href="prodaja_hotela.html">Prodaja i kupovina hotela</a>
+									</li>
+									<li>
+										<a href="privatizacija_i_finansiranje_banja.html"
+											>Privatizacija i finansiranje banja</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">FINANSIRANJE PROJEKATA</a>
+								<i class="fa fa-angle-right"></i>
+								<!-- fontAwesome icon -->
+								<ul class="drop-down one-column hover-expand">
+									<!-- second level drop down -->
+									<li>
+										<a
+											href="finansiranje_velikih_projekata_i_infrastrukture.html"
+											>Infrastruktura</a
+										>
+									</li>
+									<li><a href="ppp.html">JPP (PPP)</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">MALA I SREDNJA PREDUZEĆA</a>
+								<i class="fa fa-angle-right"></i>
+								<!-- fontAwesome icon -->
+
+								<ul class="drop-down one-column hover-expand">
+									<!-- second level drop down -->
+
+									<li>
+										<a href="podrska_malim_i_srednjim_preduzecima.html"
+											>Podrška malim i srednjim preduzećima</a
+										>
+									</li>
+									<li><a href="belbanet.html">BELBANET</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="poslovne_prilike.html">POSLOVNE PRILIKE</a></li>
+					<li><a href="reference.html">REFERENCE</a></li>
+					<li>
+						<a href="#">BLOG</a>
+						<ul class="drop-down one-column hover-fade">
+							<!-- first level drop down -->
+
+							<li><a href="vesti.html">VESTI</a></li>
+							<li><a href="saopstenja.html">SAOPŠTENJA</a></li>
+							<li><a href="clanci.html">ČLANCI</a></li>
+						</ul>
+					</li>
+					<li><a href="kontakt.html">KONTAKT</a></li>
+				</ul>
+				<!-- #EndLibraryItem -->
+			</div>
+
+			<!-- mega menu end -->
+
+			<div class="naslov_pozadina hide_tablet">
+				<div class="naslov">
+					<h1><span>SELEKTIVNE REFERENCE </span></h1>
+				</div>
+			</div>
+
+			<div id="container-ref">
+				<!--red1-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Dokapitalizacija</h3></div>
+
+						<h2>
+							Gatarić Group International<br />
+							Derventa i Beograd
+						</h2>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/gataric_grup.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							Analiza projekcije konsolidovanih novčanih tokova za period
+							2014-2019 za potrebe finansijskog investitora<br />
+
+							Savetnik finansijskog investitora
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2014</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>
+							Specijalne bolnice za rehabilitaciju “Žubor”, Kuršumlijska Banja
+						</h2>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/zubor.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>U toku</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>
+							Institut za rehabilitaciju “Vrmac”<br />
+							Prčanj, Crna Gora
+						</h2>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/vrmac.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>U toku</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Elektroizgradnja AD Bajina Bašta</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač transformatora i elektro postrojenja</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/ebb.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>2011</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji">
+							<h3>Zatvaranje finansijske konstrukcije</h3>
+						</div>
+
+						<h2>
+							Bora Kečić specijalni transporti doo<br />
+
+							Beograd, Srbija
+						</h2>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/bora_kecic.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							Kredit od RSD 195.000.000 za akviziciju PZP Kragujevac u stečaju
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2013</p></div>
+				</div>
+
+				<!--kraj red 1-->
+
+				<!--pocetak 2 reda-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>savetnik kupca</h3></div>
+
+						<h2>Seavus doo<br />Skoplje, Makedonija</h2>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/seavus.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>Akvizicija WAZ Mediengruppe portfolija u Makedoniji</p>
+					</div>
+
+					<div class="ref_utoku"><p>2011</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h2></h2></div>
+
+						<h2>Hotel Sirmium Sremska Mitrovica</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Hotel sa dve zvezdice</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/sirmium.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik u proceni vrednosti</p></div>
+
+					<div class="ref_utoku"><p>2008</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Lasta srbija<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile"><p>autoprevoznik</p></div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/lasta.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik kupca</p></div>
+
+					<div class="ref_utoku"><p>2008</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Prodaja imovine</h3></div>
+
+						<h2>Robne kuće Beograd</h2>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/rk_beograd.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik potencijalnog kupca</p></div>
+
+					<div class="ref_utoku"><p>2007</p></div>
+				</div>
+
+				<!--kraj reda 2-->
+
+				<!--red 3-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Rafinerija nafte Beogra<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač maziva i antikorozivnih sredstava</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img
+							src="../images/portfolio/rafinerija_nafte_beograd.jpg"
+							alt=""
+						/>
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>2007</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji">
+							<h3>Procena vrednosti portfolija nekretnina</h3>
+						</div>
+
+						<h2>Lukoil-Beopetrol A.D. Beograd</h2>
+
+						<div class="hide_tablet hide_mobile"><p>Naftna kompanija</p></div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/lukoil.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik kompanije</p></div>
+
+					<div class="ref_utoku"><p>2007</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Ikarbus, Srbija<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač autobusa</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/ikarbus.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik potencijalnog kupca</p></div>
+
+					<div class="ref_utoku">
+						<p><span>2007</span></p>
+					</div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Mezzanine finansiranje</h3></div>
+
+						<h2>Preuzimanja kompanije PZP Beograd</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Izgradnja i održavanje putne mreže</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/pzp_beograd.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>Savetnik kompanije u finansiranju akvizicije</p>
+					</div>
+
+					<div class="ref_utoku"><p>2007</p></div>
+				</div>
+
+				<!--kraj reda 3-->
+
+				<!--red 4-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>“Suva Ruda”, Raška<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Rudnik olova i cinka</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/suva_ruda.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga"><p>Savetnik kupca</p></div>
+
+					<div class="ref_utoku"><p>2007</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji">
+							<h3>procena vrednosti kapitala</h3>
+						</div>
+
+						<h2>Fabrika maziva FAM Kruševac</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač ulja i maziva</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/fam.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>Procena vrednosti kapitala za kupca</p>
+					</div>
+
+					<div class="ref_utoku"><p>2007</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Putevi Čačak AD<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>preduzeće za izgradnju i održavanje puteva</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/putevi_cacak.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je savetovao Agenciju za privatizaciju u ovoj transakciji
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2006</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Srbijaautoput Beograd <br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>preduzeće za održavanje puteva</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/srbijaautoput.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je savetovao Agenciju za privatizaciju u ovoj transakciji
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2006</p></div>
+				</div>
+
+				<!--kraj reda 4-->
+
+				<!--red 5-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji">
+							<h3>Restrukturiranje i privatizacija</h3>
+						</div>
+
+						<h2>IPM Majdanpek<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač nakita i metalne galanterije</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/ipk.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je savetnik Agencije za privatizaciju u ovoj transakciji
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2005</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji">
+							<h3>Restrukturiranje i privatizacija</h3>
+						</div>
+
+						<h2>IMK 29 Novembar<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile"><p>Mesna industrija</p></div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/29.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je savetnik Agencije za privatizaciju u restrukturiranju i
+							privatizaciji
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2005</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Beopetrol<br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile"><p>Naftna kompanija</p></div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/beopetrol.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							Kao član BNP Paribas konzorcijuma SEECAP je savetovao Agenciju za
+							privatizaciju u ovoj transakciji
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2003</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Srpska fabrika stakla <br /><br /></h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač optičkog stakla i stakla ručne izrade</p>
+						</div>
+					</div>
+
+					<div class="ref_img">
+						<img src="../images/portfolio/sfs.jpg" alt="" />
+					</div>
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1
+							savetovao Agenciju za privatizaciju u ovoj transakciji koju je
+							finansirala Svetska banka – Pool 10
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2003</p></div>
+				</div>
+
+				<!--kraj reda 5-->
+
+				<!--red 6-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>privatizacija</h3></div>
+
+						<h2>Industrija stakla Pančevo</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač stakla i medicinske ambalaže</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/isp.jpg" alt="" />
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1
+							savetovao Agenciju za privatizaciju u ovoj transakciji koju je
+							finansirala Svetska banka – Pool 10
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2003</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>privatizacija</h3></div>
+
+						<h2>Keramika Mladenovac</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač sanitarne i dekorativne keramike</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/keramika_mladenovac.jpg" alt="" />
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1
+							savetovao Agenciju za privatizaciju u ovoj transakciji koju je
+							finansirala Svetska banka – Pool 10
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2003</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Porcelan Zaječar</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač porcelana</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/porcelan_zajecar.jpg" alt="" />
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1
+							savetovao Agenciju za privatizaciju u ovoj transakciji koju je
+							finansirala Svetska banka – Pool 10
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2003</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>DP Dušan Petronijević</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač kartonske ambalaže</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/dusan_petronijevic.jpg" alt="" />
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1
+							savetovao Agenciju za privatizaciju u ovoj transakciji koju je
+							finansirala Svetska banka – Pool 11
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2003</p></div>
+				</div>
+
+				<!--kraj reda 6-->
+
+				<!--red 7-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>privatizacija</h3></div>
+
+						<h2>Kopaonik</h2>
+
+						<div class="hide_tablet hide_mobile"><p>Fabrika lesonita</p></div>
+					</div>
+
+					<img src="../images/portfolio/kopaonik_fabrika_lesonita.jpg" alt="" />
+
+					<div class="ref_usluga">
+						<p>
+							SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1
+							savetovao Agenciju za privatizaciju u ovoj transakciji koju je
+							finansirala Svetska banka – Pool 11
+						</p>
+					</div>
+
+					<div class="ref_utoku"><p>2003</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>privatizacija</h3></div>
+
+						<h2>Sloga</h2>
+
+						<div class="hide_tablet hide_mobile"><p>Fabrika nameštaja</p></div>
+					</div>
+
+					<img src="../images/portfolio/sloga.jpg" alt="" />
+
+					<div class="ref_usluga">
+						<p>
+							<span
+								>SEECAP je u konzorcijumu sa španskom konsultantskom kućom Nmas1
+								savetovao Agenciju za privatizaciju u ovoj transakciji koju je
+								finansirala Svetska banka – Pool 11</span
+							>
+						</p>
+					</div>
+
+					<div class="ref_utoku">
+						<p><span>2003</span></p>
+					</div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Vino Župa</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođača vina i sokova</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/vino_zupa.jpg" alt="" />
+
+					<div class="ref_usluga"><p>kosavetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>2002</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>Mesokombinat</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Industrije mesa i delikatesa</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/mek.jpg" alt="" />
+
+					<div class="ref_usluga"><p>kosavetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>2002</p></div>
+				</div>
+
+				<!--kraj reda 7-->
+
+				<!--red 8-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>privatizacija</h3></div>
+
+						<h2>Valjevska pivara</h2>
+
+						<div class="hide_tablet hide_mobile"><p>pivara</p></div>
+					</div>
+
+					<img src="../images/portfolio/valjevska_pivara.jpg" alt="" />
+
+					<div class="ref_usluga"><p>kosavetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>2002</p></div>
+				</div>
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>privatizacija</h3></div>
+
+						<h2>Žitopromet</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Proizvođač i prerađivač žita</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/zitopromet.jpg" alt="" />
+
+					<div class="ref_usluga"><p>kosavetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>2002</p></div>
+				</div>
+
+				<!--kraj reda 8-->
+
+				<!--red 9-->
+
+				<div class="ref_uzi">
+					<div class="ref_naslov">
+						<div class="ref_naslov_manji"><h3>Privatizacija</h3></div>
+
+						<h2>MIP Požarevac</h2>
+
+						<div class="hide_tablet hide_mobile">
+							<p>Industrija mesa i delikatesa</p>
+						</div>
+					</div>
+
+					<img src="../images/portfolio/mip_pozarevac.jpg" alt="" />
+
+					<div class="ref_usluga"><p>kosavetnik prodavca</p></div>
+
+					<div class="ref_utoku"><p>2002</p></div>
+				</div>
+
+				<!--kraj red 9-->
+			</div>
+
+			<div class="gridContainer clearfix"></div>
+			<!-- #BeginLibraryItem "/Library/footer_serbian.lbi" -->
+			<div class="footerbg">
+				<div class="footer">
+					<div class="footer_uzi">
+						<div class="footer_uzi_img">
+							<img src="../images/logospea.png" alt="SPEA logo" />
+						</div>
+
+						<div class="footer_uzi_nav">
+							<ul>
+								<li>
+									<a
+										href="https://www.linkedin.com/company/18016802"
+										target="_blank"
+										><i class="fa fa-linkedin" id="social"></i
+									></a>
+								</li>
+
+								<li>
+									<a href="https://twitter.com/SEECAPLocal"
+										><i class="fa fa-twitter" id="twitter"></i
+									></a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footer_uzi_nav2">
+							<ul>
+								<li>
+									<a href="odricanje_od_odgovornosti.html"
+										>Odricanje od pravne odgovornosti</a
+									>
+								</li>
+
+								<li><a href="karijera.html">Karijera</a></li>
+
+								<li><a href="mapa_sajta.html">mapa sajta</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="footerbg1">
+					<div class="footer1">
+						<p>Autorska prava ©SEECAP Konsalting doo 2001-2020.</p>
+					</div>
+				</div>
+			</div>
+			<!-- #EndLibraryItem -->
+		</div>
+	</body>
 </html>
-
