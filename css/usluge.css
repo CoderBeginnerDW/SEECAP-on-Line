@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /* Simple fluid media
 
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
@@ -7,43 +6,31 @@
    http://www.alistapart.com/articles/fluid-images/ 
 
 */
-
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-
-
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 html, button, input, select, textarea {
-
-	color: #333;
-
+    color: #333;
 }
-
-html, body {height:100%;}
-
-body { margin: 0; font-size: 1em; line-height: 1.4; font-family: 'Roboto', sans-serif;
-
-	background-color: #ffffff;}
-
-
-
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
 img, object, embed, video {
-
-	max-width: 100%;
-
+    max-width: 100%;
 }
-
-
-
 /* IE 6 does not support max-width so default to width 100% */
-
 .ie6 img {
-
-	width:100%;
-
+    width: 100%;
 }
-
-
-
 /*
 
 	Dreamweaver Fluid Grid Properties
@@ -71,774 +58,351 @@ img, object, embed, video {
 	http://goldengridsystem.com/
 
 */
-
-
-
 .fluid {
-
-	clear: both;
-
-	margin-left: 0;
-
-	width: 100%;
-
-	float: left;
-
-	display: block;
-
+    clear: both;
+    margin-left: 0;
+    width: 100%;
+    float: left;
+    display: block;
 }
-
-
-
 .fluidList {
-
-    list-style:none;
-
-    list-style-image:none;
-
-    margin:0;
-
-    padding:0;        
-
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
 }
-
 a {
-
-	text-decoration:none;
-
+    text-decoration: none;
 }
-
 h1 {
-
-	color: #b1b1b8;
-
-	font-size: 1.5em;
-
-	font-weight: 300;
-
-	text-align: left;
-
-	margin-left:0.4em;
-
+    color: #b1b1b8;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 0.4em;
 }
-
 h1 span {
-
-	color:#888891;
-
-	font-size: 2.5em;
-
-	line-height:1.5em;
-
-	margin-right:0.3em;
-
-	
-
+    color: #888891;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    margin-right: 0.3em;
 }
-
 h2 {
-
-	color: #58585F;
-
-	font-size: 1.5em;
-
-	font-weight: 400;
-
-	margin-bottom:0.1em;
-
-	line-height:1.2em;
-
-	text-transform:uppercase;
-
+    color: #58585F;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 0.1em;
+    line-height: 1.2em;
+    text-transform: uppercase;
 }
-
-
-
-
-
-
-
 h3 {
-
-	color: #999999;
-
-	font-weight: 400;
-
-	text-transform: uppercase;
-
-	font-size: 1.2em;
-
-	letter-spacing: 0.2em;
-
+    color: #999999;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
 }
-
 p {
-
-	line-height:1.5em;
-
-	font-size:1.1em;
-
-	font-weight:300;
-
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-weight: 300;
 }
-
-
-
 .vest_solo ul li {
-
-	line-height:1.5em;
-
-	font-size:1.1em;
-
-	font-weight:300;
-
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-weight: 300;
 }
-
-
-
 .vest_solo ol li {
-
-	line-height:1.5em;
-
-	font-size:1.1em;
-
-	font-weight:300;
-
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-weight: 300;
 }
-
-
-
 .vest_solo img {
-
-	float: right;
-
-	margin-left: 2%;
-
-	display: inline;
-
-	margin-bottom: 2%;
-
+    float: right;
+    margin-left: 2%;
+    display: inline;
+    margin-bottom: 2%;
 }
-
-
-
 #red {
-
-	color:#f21d25;
-
-	margin-right:0.2em;
-
-	font-weight:700;
-
-}	
-
+    color: #f21d25;
+    margin-right: 0.2em;
+    font-weight: 700;
+}
 #bigred {
-
-	color:#f21d25;
-
-	margin-right:0.2em;
-
-	font-weight:700;
-
-	font-size:1.5em;
-
-	padding:0.2em 0;
-
+    color: #f21d25;
+    margin-right: 0.2em;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0.2em 0;
 }
-
 .wrap {
-
-	font-family: 'Roboto', sans-serif;
-
-	font-weight: 300;
-
-	font-size: 1.1em;
-
-	line-height: 1.4em;
-
-	width: 100%;
-
-	z-index: 10;
-
-	position: relative;
-
-	margin: 0 auto;
-
-	padding: 0;
-
-	min-height: 100%;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
 }
-
-
-
- .bgcontainer {
-
-	z-index: 10;
-
-	position: relative;
-
-	width: 100%;
-
-	height: 100%;
-
-	overflow: auto;
-
-	padding-bottom: 150px;	
-
-	clear: none;
-
-	float: none;
-
-	background-color: #ffffff !important;
-
-	
-
-} 
-
+.bgcontainer {
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 150px;
+    clear: none;
+    float: none;
+    background-color: #ffffff !important;
+}
 .naslov_pozadina {
-
-	width: 100%;
-
-	background-color: #F7F8F9;
-
-	background-image: url(../images/decor_inside.png);
-
-	background-repeat: repeat;
-
-	margin-bottom:2em;
-
+    width: 100%;
+    background-color: #F7F8F9;
+    background-image: url(../images/decor_inside.png);
+    background-repeat: repeat;
+    margin-bottom: 2em;
 }
-
 .naslov {
-
-	margin-left: auto;
-
-	margin-right: auto;
-
-	width: 1170px !important;
-
-	clear: none;
-
-	float: none;	
-
-}  
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px !important;
+    clear: none;
+    float: none;
+}
 .arhiva {
-
-	margin-bottom:1.5em;
-
-	margin-top:1.5em;
-
-	border-top-width: 1px;
-
-	border-top-style: solid;
-
-	border-top-color: #E8EBEE;
-
-	padding-top:1.5em;
-
-	text-align:right;
-
-	
-
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #E8EBEE;
+    padding-top: 1.5em;
+    text-align: right;
 }
-
 .arhiva a {
-
-	font-size:1.6em;
-
-	color:#303030;
-
-	font-weight:400;
-
+    font-size: 1.6em;
+    color: #303030;
+    font-weight: 400;
 }
-
 .arhiva a:hover {
-
-	color:#f21d25;
-
+    color: #f21d25;
 }
-
-.gridContainer {	
-
-	clear: none;
-
-	float: none;
-
+.gridContainer {
+    clear: none;
+    float: none;
 }
-
 .vest {
-
-	margin-bottom:3em;
-
+    margin-bottom: 3em;
 }
-
 .vest_solo {
-
-	margin-bottom:1em;
-
-	width: 1170px;
-
-	margin-left: auto !important;
-
-	margin-right: auto !important;
-
-	float: none;
-
-	text-align:justify;
-
+    margin-bottom: 1em;
+    width: 1170px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none;
+    text-align: justify;
 }
-
 .vest_solo a {
-
-	color: #0000FF;
-
-	font-size: 1.1em;
-
-	font-weight: 300;
-
-	text-decoration: none;
-
+    color: #0000FF;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-decoration: none;
 }
-
-
-
 .vest_solo h2 {
-
-	text-align: center;
-
+    text-align: center;
 }
-
-
-
 .vest_solo p span, .vest_solo ul li span {
-
-	font-style: italic;	
-
-	}
-
-	
-
+    font-style: italic;
+}
 .vest_solo a:hover {
-
-	color:#f21d25;
-
+    color: #f21d25;
 }
-
-
-
-.vest_solo img {
-
-}
-
+.vest_solo img {}
 .vest_slika {
-
-width: 100%;
-
-clear: both;
-
-margin-left: 0;
-
+    width: 100%;
+    clear: both;
+    margin-left: 0;
 }
-
 .vest_tekst {
-
-width: 100%;
-
-margin-bottom:1em;
-
+    width: 100%;
+    margin-bottom: 1em;
 }
-
 .more {
-
-	margin-top: 3em;
-
-	float: left;
-
-	background-color: #F0F2F4;
-
-	background-image: url(../images/decor_inside.png);
-
-	background-repeat: repeat;
-
-	padding: 0.6em 1.8em;
-
+    margin-top: 3em;
+    float: left;
+    background-color: #F0F2F4;
+    background-image: url(../images/decor_inside.png);
+    background-repeat: repeat;
+    padding: 0.6em 1.8em;
 }
-
 .more a {
-
-	font-size: 0.75em;
-
-	font-weight: 700;
-
-	letter-spacing: 0.1em;
-
-	color: #58585F;
-
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #58585F;
 }
-
 .more a:hover {
-
-	border-bottom-width: 2px;
-
-	border-bottom-style: solid;
-
-	border-bottom-color: #fff;
-
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
 }
-
-
-
 .more4 {
-
-	margin-top: 2em;
-
-	margin-bottom:2em;
-
-	background-color: #F0F2F4;
-
-	background-image: url(../images/decor_inside.png);
-
-	background-repeat: repeat;
-
-	padding: 0.6em 1.8em;
-
-	width:25%
-
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #F0F2F4;
+    background-image: url(../images/decor_inside.png);
+    background-repeat: repeat;
+    padding: 0.6em 1.8em;
+    width: 25%
 }
-
-
-
 .more5 {
-
-	margin-top: 2em;
-
-	margin-bottom:2em;
-
-	background-color: #F0F2F4;
-
-	background-image: url(../images/decor_inside.png);
-
-	background-repeat: repeat;
-
-	padding: 0.6em 1.8em;
-
-	width:32%
-
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #F0F2F4;
+    background-image: url(../images/decor_inside.png);
+    background-repeat: repeat;
+    padding: 0.6em 1.8em;
+    width: 32%
 }
-
-
-
 .more4 a {
-
-	font-size: 0.75em;
-
-	font-weight: 700;
-
-	letter-spacing: 0.1em;
-
-	color: #58585F;
-
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #58585F;
 }
-
-
-
 .more4 a:hover {
-
-	border-bottom-width: 2px;
-
-	border-bottom-style: solid;
-
-	border-bottom-color: #fff;
-
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
 }
-
-
-
 .more5 a {
-
-	font-size: 0.75em;
-
-	font-weight: 700;
-
-	letter-spacing: 0.1em;
-
-	color: #58585F;
-
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #58585F;
 }
-
-
-
 .more5 a:hover {
-
-	border-bottom-width: 2px;
-
-	border-bottom-style: solid;
-
-	border-bottom-color: #fff;
-
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
 }
-
 .vesti_slike {
-
-	margin-top:1em;
-
-	margin-bottom:2em;
-
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
-
 .vesti_slikelight {
-
-	clear: none;
-
-	margin-left: 2.2222%;
-
-	width: 48.8888%;
-
-	margin-bottom: 2.2222%;
-
+    clear: none;
+    margin-left: 2.2222%;
+    width: 48.8888%;
+    margin-bottom: 2.2222%;
 }
-
-
-
-ol.d {list-style-type:lower-alpha;}
-
-
-
+ol.d {
+    list-style-type: lower-alpha;
+}
 .zeroMargin_mobile {
-
-margin-left: 0;
-
+    margin-left: 0;
 }
-
 .hide_mobile {
-
-display: none;
-
+    display: none;
 }
-
-
-
-
-
-
-
 @media only screen and (min-width: 1023px) {
-
-
-
-.bgcontainer {	
-
-	width: 96% !important;
-
-	margin: 0 auto;
-
-	height: 100%;	
-
-	padding-bottom: 150px;	
-
-	float: none;
-
-	background-color: #ffffff !important;	
-
-} 
-
-	
-
-	.gridContainer {
-
-	width: 98%;		
-
-	margin: 0 auto;
-
-	clear: none;
-
-	float: none;
-
-	margin-left: auto;
-
+    .bgcontainer {
+        width: 96% !important;
+        margin: 0 auto;
+        height: 100%;
+        padding-bottom: 150px;
+        float: none;
+        background-color: #ffffff !important;
+    }
+    .gridContainer {
+        width: 98%;
+        margin: 0 auto;
+        clear: none;
+        float: none;
+        margin-left: auto;
+    }
+    .naslov_pozadina {
+        width: 100% !important;
+        background-color: #F7F8F9;
+        background-image: url(../images/decor_inside.png);
+        background-repeat: repeat;
+        margin-bottom: 2em;
+    }
+    .naslov {
+        width: 96%;
+        margin: 0 auto;
+        clear: none;
+        float: none;
+        margin-left: auto;
+    }
+    .vest {
+        margin-bottom: 3em;
+    }
+    .vest_solo {
+        margin-bottom: 1em;
+        text-align: justify;
+    }
+    #border {
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #E8EBEE;
+        padding-top: 1.5em;
+    }
+    .naslov_pozadina {
+        width: 100%;
+        background-color: #F7F8F9;
+        background-image: url(../images/decor_inside.png);
+        background-repeat: repeat;
+        margin-bottom: 2em;
+    }
+    .vest_slika {
+        width: 100%;
+        clear: none;
+    }
+    .vest_tekst {
+        width: 100%;
+    }
+    .more {
+        margin-top: 3em;
+        float: left;
+        background-color: #F0F2F4;
+        background-image: url(../images/decor_inside.png);
+        background-repeat: repeat;
+        padding: 0.6em 1.8em;
+    }
+    .more a {
+        font-size: 0.75em;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #58585F;
+    }
+    .more a:hover {
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #fff;
+    }
+    .vesti_slike {
+        margin-bottom: 2em;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vesti_slikelight {
+        width: 19.2%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        clear: none;
+    }
+    .vest_solo img {
+        margin-bottom: 1.5%;
+        margin-top: 2%;
+    }
+    .zeroMargin_desktop {
+        margin-left: 0;
+    }
+    .hide_desktop {
+        display: none;
+    }
 }
-
-	
-
-.naslov_pozadina {
-
-	width: 100% !important;
-
-	background-color: #F7F8F9;
-
-	background-image: url(../images/decor_inside.png);
-
-	background-repeat: repeat;
-
-	margin-bottom:2em;
-
-}
-
-
-
-.naslov {
-
-	width: 96%;	
-
-	margin: 0 auto;
-
-	clear: none;
-
-	float: none;
-
-	margin-left: auto;
-
-}
-
-.vest {
-
-	margin-bottom:3em;
-
-}
-
-.vest_solo {
-
-	margin-bottom:1em;
-
-	text-align:justify;
-
-}
-
-#border {
-
-	border-top-width: 1px;
-
-	border-top-style: solid;
-
-	border-top-color: #E8EBEE;
-
-	padding-top:1.5em;
-
-}
-
-.naslov_pozadina {
-
-	width: 100%;
-
-	background-color: #F7F8F9;
-
-	background-image: url(../images/decor_inside.png);
-
-	background-repeat: repeat;
-
-	margin-bottom:2em;
-
-
-
-}
-
-.vest_slika {width: 100%;
-
-
-
-clear: none;
-
-}
-
-.vest_tekst {
-
-width: 100%;
-
-}
-
-	
-
-.more {
-
-	margin-top: 3em;
-
-	float: left;
-
-	background-color: #F0F2F4;
-
-	background-image: url(../images/decor_inside.png);
-
-	background-repeat: repeat;
-
-	padding: 0.6em 1.8em;
-
-}
-
-.more a {
-
-	font-size: 0.75em;
-
-	font-weight: 700;
-
-	letter-spacing: 0.1em;
-
-	color: #58585F;
-
-}
-
-.more a:hover {
-
-	border-bottom-width: 2px;
-
-	border-bottom-style: solid;
-
-	border-bottom-color: #fff;
-
-}
-
-.vesti_slike {
-
-margin-bottom:2em;
-
-max-width:100%;
-
-margin-left:auto;
-
-margin-right:auto;
-
-
-
-}
-
-.vesti_slikelight {
-
-width:19.2%;
-
-margin-left:1%;
-
-margin-bottom:1%;
-
-clear: none;
-
-}
-
-
-
-.vest_solo img {
-
-	margin-bottom:1.5%;
-
-	margin-top:2%;
-
-}
-
-	
-
-	
-
-.zeroMargin_desktop {
-
-margin-left: 0;
-
-}
-
-.hide_desktop {
-
-display: none;
-
-}
-
-}
-

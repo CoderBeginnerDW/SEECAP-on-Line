@@ -137,7 +137,7 @@
 .flat-mega-menu .login-form:hover {
     background-color: #FFFFFF;
     color: #2888D2;
-	/* animation */
+    /* animation */
     transition: background 0.3s 0s linear, color 0.3s 0s linear;
 }
 /* .search-bar class */
@@ -152,7 +152,7 @@
 .flat-mega-menu .search-bar:hover {
     background-color: #FFFFFF;
     color: #2888D2;
-	/* animation */
+    /* animation */
     transition: background 0.3s 0s linear, color 0.3s 0s linear;
 }
 .flat-mega-menu .search-bar ul {
@@ -202,7 +202,7 @@
 .flat-mega-menu > ul > li:hover > a {
     background: #FFFFFF;
     color: #2888D2;
-	/* animation */
+    /* animation */
     transition: background 0.3s 0s linear, color 0.3s 0s linear;
 }
 .flat-mega-menu > ul > .title:hover > a {
@@ -239,7 +239,7 @@
     text-align: left;
     padding: 10px 20px 10px 25px;
     background-color: #FFFFFF;
-	/* animation */
+    /* animation */
     transition: color 0.2s 0s linear, padding-left 0.2s 0s linear;
 }
 /* drop down hover animation */
@@ -276,7 +276,7 @@
 }
 .flat-mega-menu > ul > li:hover > .drop-down.hover-zoom, .flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-zoom {
     display: block;
-	/* keyframes animation */
+    /* keyframes animation */
     animation: hover-zoom 0.2s 0s linear forwards;
 }
 @keyframes hover-zoom {
@@ -316,7 +316,6 @@
     bottom: 0;
     height: 16px;
     margin: auto;
-
     color: #555658;
 }
 /* level 2 .drop-down layout */
@@ -471,7 +470,7 @@
 }
 /* media query */
 @media screen and (max-width: 768px) {
-	/* li tag layout */
+    /* li tag layout */
     .flat-mega-menu > ul > li {
         width: 100%;
         border-left: none !important;
@@ -482,16 +481,16 @@
     .flat-mega-menu > ul > li:hover > a, .flat-mega-menu > ul > .login-form:hover, .flat-mega-menu > ul > .search-bar:hover {
         color: #023f88 !important;
     }
-	/* .title class layout */
+    /* .title class layout */
     .flat-mega-menu > ul > .title a {
         text-align: center;
     }
-	/* .full-width class layout */
+    /* .full-width class layout */
     .flat-mega-menu .drop-down.full-width {
         position: relative;
         left: 0 !important;
     }
-	/* all drop-downs layout */
+    /* all drop-downs layout */
     .flat-mega-menu .drop-down.one-column, .flat-mega-menu .drop-down.two-column, .flat-mega-menu .drop-down.full-width, .flat-mega-menu .drop-down .drop-down, .flat-mega-menu .social-bar ul, .flat-mega-menu .search-bar ul, .flat-mega-menu .login-form ul {
         width: 100% !important;
         display: block !important;
@@ -545,7 +544,7 @@
         display: inline-block;
         float: none;
     }
-	/* fontAwesome icons layout */
+    /* fontAwesome icons layout */
     .flat-mega-menu .drop-down li .fa.fa-angle-right {
         position: relative;
         z-index: 9999;
@@ -559,7 +558,7 @@
         line-height: 38px;
         transform: rotate(90deg);
     }
-	/* mobile button layout */
+    /* mobile button layout */
     .flat-mega-menu #mobile-button {
         position: absolute;
         display: none;
@@ -568,12 +567,12 @@
         height: 60px;
         overflow: hidden;
     }
-	/* mobile button click to show drop down */
+    /* mobile button click to show drop down */
     .flat-mega-menu #mobile-button:checked + ul {
         height: auto;
         overflow: visible;
     }
-	 /* label tag layout */
+    /* label tag layout */
     .flat-mega-menu > label {
         width: 60px;
         height: 60px;
@@ -593,7 +592,7 @@
     .flat-mega-menu ul .title {
         padding-left: 60px;
     }
-	/* collapse class layout */
+    /* collapse class layout */
     .flat-mega-menu .collapse .drop-down.one-column, .flat-mega-menu .collapse .drop-down.two-column, .flat-mega-menu .collapse .drop-down.full-width, .flat-mega-menu .collapse .drop-down .drop-down, .flat-mega-menu .collapse .social-bar ul, .flat-mega-menu .collapse .search-bar ul, .flat-mega-menu .collapse .login-form ul {
         width: 100% !important;
         display: none !important;
@@ -602,7 +601,7 @@
     }
     .flat-mega-menu > .collapse > li:hover > .drop-down.hover-expand, .flat-mega-menu > .collapse > li:hover > .drop-down.hover-fade, .flat-mega-menu > .collapse > li:hover > .drop-down.hover-zoom, .flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-expand, .flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-fade, .flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-zoom {
         display: block !important;
-		/* keyframes animation */
+        /* keyframes animation */
         animation: hover-fade 0.2s 0s linear forwards;
     }
 }
@@ -619,7 +618,7 @@
     .flat-mega-menu .drop-down.two-column ul, .flat-mega-menu .drop-down.full-width ul {
         width: 100%;
     }
-	 /* .search-bar layout */
+    /* .search-bar layout */
     .flat-mega-menu ul .search-bar td {
         width: 100% !important;
         float: left;
@@ -632,7 +631,7 @@
         margin: 0;
         border: none;
     }
-	/* .login-form layout */
+    /* .login-form layout */
     .flat-mega-menu ul .login-form ul {
         padding: 20px;
     }
@@ -644,7 +643,7 @@
     .flat-mega-menu ul .login-form input[type="submit"] {
         width: 100%;
     }
-	/* .title class layout */
+    /* .title class layout */
     .flat-mega-menu ul .title {
         padding-left: 0;
         text-indent: 60px;

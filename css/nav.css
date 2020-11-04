@@ -341,13 +341,13 @@
 /* mouse hover display submenus */
 .Flat_mega_menu ul li:hover .submenu.one_col, .Flat_mega_menu ul li:hover .submenu.two_col, .Flat_mega_menu ul .search_bar:hover ul, .Flat_mega_menu ul .user_login:hover ul, .Flat_mega_menu ul .social_bar:hover ul, .Flat_mega_menu ul li:hover .submenu.img_container, .Flat_mega_menu ul li:hover .submenu.four_col {
     display: block;
-	/* animation */
+    /* animation */
     animation: display_submenus 0.2s 0s linear 1 forwards;
 }
 /* second level submenu hover effect */
 .Flat_mega_menu ul li .submenu.one_col li:hover > .submenu.one_col {
     display: block;
-	/* animation */
+    /* animation */
     animation: display_submenus_second 0.2s 0s linear 1 forwards;
 }
 /* fontawesome arrow icon display on submenus layout */
@@ -486,7 +486,7 @@
         z-index: 999;
         right: 20px;
         transform: rotate(90deg);
-        }
+    }
     /* submenu image container layout */
     .Flat_mega_menu ul li .submenu.img_container {
         display: none;
