@@ -339,7 +339,7 @@ a {
         background-color: #4245DC;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
-        padding: 0.6em 1.8em;
+        padding: 0.6em 1.8em;       
     }
     .more a {
         font-size: 0.85em;
@@ -467,6 +467,7 @@ a {
         padding: 0.6em 1.8em;
         width: 48%;
         margin-bottom: 10px;
+        border-radius: 6px;
     }
     .more-blog a {
         font-size: 0.75em;
@@ -497,6 +498,7 @@ a {
         background-repeat: repeat;
         padding: 0.6em 1.8em;
         width: 21%;
+        border-radius: 6px;
     }
     .more-blog2 a {
         font-size: 0.75em;
@@ -1072,7 +1074,8 @@ a {
   padding: 0.6em 1.8em;
   width: 100%;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: center;      
+  border-radius: 6px;    
     }
     .more-blog a {
         font-size: 0.75em;
@@ -1104,6 +1107,7 @@ a {
   padding: 0.6em 1.8em;
   width: 100%;
   text-align: center;
+  border-radius: 6px;    
     }
     .more-blog2 a {
         font-size: 0.75em;
