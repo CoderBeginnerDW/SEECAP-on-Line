@@ -476,13 +476,14 @@ a {
         color: #58585F;
     }
     .more-blog1 {
-        margin-top: 2em;
+        margin-top: 0em;
         margin-bottom: 2em;
-        background-color: #F0F2F4;
+        background-color: #9BBCDD;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
         padding: 0.6em 1.8em;
         width: 18%;
+        border-radius: 6px;
     }
     .more-blog1 a {
         font-size: 0.75em;
@@ -1084,14 +1085,15 @@ a {
         color: #58585F;
     }
     .more-blog1 {
-        margin-top: 2em;
+        margin-top: 0em;
         margin-bottom: 2em;
-        background-color: #F0F2F4;
+        background-color: #9BBCDD;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
         padding: 0.6em 1.8em;
         width: 100%;
         text-align: center;
+        border-radius: 6px;
     }
     .more-blog1 a {
         font-size: 0.75em;
