@@ -339,7 +339,8 @@ a {
         background-color: #4245DC;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
-        padding: 0.6em 1.8em;       
+        padding: 0.6em 1.8em;
+        border-radius: 8px;
     }
     .more a {
         font-size: 0.85em;
@@ -950,6 +951,7 @@ a {
         background-repeat: repeat;
         padding: 0.6em 1.8em;
         margin-bottom: 30px;
+        border-radius: 6px;
     }
     .more a {
         font-size: 0.75em;
