@@ -244,12 +244,16 @@
 }
 /* drop down hover animation */
 .flat-mega-menu .drop-down li:hover > a {
-    color: #000000;
-    padding-left: 30px;
+  color: blue;
+  padding-left: 30px;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 /* default hover animation to show drop down */
 .flat-mega-menu > ul > li:hover .drop-down {
     display: block;
+    text-decoration: underline;
+    color: red;
 }
 .flat-mega-menu ul li .drop-down li:hover > .drop-down {
     display: block;
