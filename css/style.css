@@ -246,7 +246,7 @@
 .flat-mega-menu .drop-down li:hover > a {
   color: blue;
   padding-left: 30px;
-  text-decoration: underline;
+  text-decoration: underline 1.7px;
   text-decoration-color: red;
 }
 /* default hover animation to show drop down */
