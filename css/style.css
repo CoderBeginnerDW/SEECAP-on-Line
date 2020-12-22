@@ -580,7 +580,7 @@
     .flat-mega-menu > label {
   width: 60px;
   height: 60px;
-  background-color: blue;
+  background-color: #999;
   display: block;
   margin: 0;
   padding: 0;
@@ -590,7 +590,7 @@
   text-align: center;
   line-height: 60px;
   font-size: 2em;
-  color: red;
+  color: white;
   cursor: pointer;
     }
     .flat-mega-menu ul .title {
