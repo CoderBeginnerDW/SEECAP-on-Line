@@ -10,7 +10,7 @@
       <li class="title .hide_desktop"> <a href="#"></a> </li>
       <!-- website title class -->
       
-      <li><a href="../_russian/index-ru.html">О НАС</a></li>
+      <li><a href="../ru/index-ru.html">О НАС</a></li>
       <li><a href="">НАШИ УСЛУГИ</a>
         <ul class="drop-down one-column hover-fade">
           <!-- first level drop down -->
@@ -20,10 +20,10 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../_russian/Корпоративное_финанcирование.html">Корпоративное финанcирование</a></li>
-              <li><a href="../_russian/Прямые_иностранные_инвестиции.html">Прямые иностранные инвестиции (FDI)</a></li>
-              <li><a href="../_russian/Приватизация.html">Приватизация</a></li>
-              <li><a href="../_russian/Реструктуризация.html">Реструктуризация</a></li>
+              <li><a href="../ru/corporate-finance.html">Корпоративное финанcирование</a></li>
+              <li><a href="../ru/fdi.html">Прямые иностранные инвестиции (FDI)</a></li>
+              <li><a href="../ru/privatisation.html">Приватизация</a></li>
+              <li><a href="../ru/restructuring.html">Реструктуризация</a></li>
             </ul>
           </li>
           
@@ -32,9 +32,9 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../_russian/Слияния_и_поглощения.html">Слияния и поглощения (M&A)</a></li>
-              <li><a href="../_russian/Финансирование_транзакций.html">Финансирование транзакций</a></li>
-              <li><a href="../_russian/Услуги_после_приобретения.html">Услуги после приобретения</a></li>
+              <li><a href="../ru/m&a.html">Слияния и поглощения (M&A)</a></li>
+              <li><a href="../ru/acquisition-finance.html">Финансирование транзакций</a></li>
+              <li><a href="../ru/post-acquisition-services.html">Услуги после приобретения</a></li>
             </ul>
           </li>
           
@@ -43,7 +43,7 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../_russian/Фонды_прямых_инвестиций.html">Фонды прямых инвестиций</a></li>
+              <li><a href="../ru/investment-funds.html">Фонды прямых инвестиций</a></li>
             </ul>
           </li>
           
@@ -52,7 +52,7 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../_russian/Недвижимость.html">Недвижимость</a></li>              
+              <li><a href="../ru/real-estate.html">Недвижимость</a></li>              
             </ul>            
           </li>
           
@@ -61,9 +61,9 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../_russian/hospitality-finance.html">Финансирование гостиницы и туризма</a></li>
-              <li><a href="../_russian/hotel-sale.html">Продажа и покупка отелей и ресторанов</a></li>
-              <li><a href="../_russian/destination-spa.html">Финансирование курортов и санаториев</a></li>
+              <li><a href="../ru/hospitality-finance.html">Финансирование гостиницы и туризма</a></li>
+              <li><a href="../ru/hotel-sale.html">Продажа и покупка отелей и ресторанов</a></li>
+              <li><a href="../ru/destination-spa.html">Финансирование курортов и санаториев</a></li>
             </ul>            
           </li>
           
@@ -72,7 +72,7 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../_russian/Проектное_финансирование.html">Финансирование инфраструктурных проектов</a></li>
+              <li><a href="../ru/infrastructure-finance.html">Финансирование инфраструктурных проектов</a></li>
             </ul>
           </li>
           
@@ -81,15 +81,15 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../_russian/Оценка_бизнеса.html">Оценка бизнеса</a></li>
+              <li><a href="../ru/valuation.html">Оценка бизнеса</a></li>
             </ul>
           </li>
         </ul>
       </li>
       
-      <li><a href="../_russian/возможности_для_бизнеса.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
-      <li><a href="../_russian/новости_и_сообщения.html">НОВОСТИ И СООБЩЕНИЯ</a></li>
-      <li><a href="../_russian/наш_опыт.html">НАШ ОПЫТ</a></li>
-      <li><a href="../_russian/свяжитесь_с_нами.html">КОНТАКТЫ</a></li>
+      <li><a href="../ru/business-opportunities.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
+      <li><a href="../ru/blog-ru.html">НОВОСТИ И СООБЩЕНИЯ</a></li>
+      <li><a href="../ru/references.html">НАШ ОПЫТ</a></li>
+      <li><a href="../ru/contacts.html">КОНТАКТЫ</a></li>
     </ul>
   </div>
