@@ -578,20 +578,20 @@
     }
     /* label tag layout */
     .flat-mega-menu > label {
-        width: 60px;
-        height: 60px;
-        background-color: rgb(0, 0, 0, 0.10);
-        display: block;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        text-align: center;
-        line-height: 60px;
-        font-size: 2em;
-        color: #FFFFFF;
-        cursor: pointer;
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 60px;
+  font-size: 2em;
+  color: red;
+  cursor: pointer;
     }
     .flat-mega-menu ul .title {
         padding-left: 60px;
