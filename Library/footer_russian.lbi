@@ -1,4 +1,8 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="footerbg">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<footer>
+<div class="footerbg">
     <div class="footer">
       <div class="footer_uzi">
         <div class="footer_uzi_img"> <img src="../images/logospea-ru.png" alt="logospea"> </div>
@@ -18,7 +22,9 @@
     </div>
     <div class="footerbg1">
       <div class="footer1">
-        <p>Авторские права ©SEECAP Konsalting doo 2001-2020</p>
+        <p>Авторские права ©SEECAP Konsalting doo 2001-2021</p>
       </div>
     </div>
   </div>
+</footer>
+

@@ -117,98 +117,107 @@ Do the following if you're using your customized build of modernizr (http://www.
   </div>
   
   <!-- mega menu start -->
-  <nav> 
-    <!-- #BeginLibraryItem "/Library/navigation_russian.lbi" -->
-    <div class="flat-mega-menu"> <!-- flat-mega-menu class -->
+  <nav><!-- #BeginLibraryItem "/Library/navigation_russian.lbi" -->
+
+<nav>
+<div class="flat-mega-menu"> <!-- flat-mega-menu class -->
+    
+    <label for="mobile-button"> <i class="fa fa-bars"></i> </label>
+    <!-- mobile click button to show menu -->
+    
+    <input id="mobile-button" type="checkbox">
+    <ul class="collapse">
+      <!-- collapse class for collapse the drop down -->
       
-      <label for="mobile-button"> <i class="fa fa-bars"></i> </label>
-      <!-- mobile click button to show menu -->
+      <li class="title .hide_desktop"> <a href="#"></a> </li>
+      <!-- website title class -->
       
-      <input id="mobile-button" type="checkbox">
-      <ul class="collapse">
-        <!-- collapse class for collapse the drop down -->
-        
-        <li class="title .hide_desktop"> <a href="#"></a> </li>
-        <!-- website title class -->
-        
-        <li><a href="index-ru.html">О НАС</a></li>
-        <li><a href="">НАШИ УСЛУГИ</a>
-          <ul class="drop-down one-column hover-fade">
-            <!-- first level drop down -->
+      <li><a href="index-ru.html">О НАС</a></li>
+      <li><a href="">НАШИ УСЛУГИ</a>
+        <ul class="drop-down one-column hover-fade">
+          <!-- first level drop down -->
+          
+        <li> <a href="#">Корпоративные</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
             
-            <li> <a href="#">Корпоративные</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
               
-              <ul class="drop-down one-column hover-expand">
-                <!-- second level drop down -->
-                
-                <li><a href="corporate-finance.html">Корпоративное финанcирование</a></li>
-                <li><a href="fdi.html">Прямые иностранные инвестиции (FDI)</a></li>
-                <li><a href="privatisation.html">Приватизация</a></li>
-                <li><a href="restructuring.html">Реструктуризация</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Слияния и поглощения (M&A)</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+              <li><a href="corporate-finance.html">Корпоративное финанcирование</a></li>
+              <li><a href="fdi.html">Прямые иностранные инвестиции (FDI)</a></li>
+              <li><a href="privatisation.html">Приватизация</a></li>
+              <li><a href="restructuring.html">Реструктуризация</a></li>
+            </ul>
+          </li>
+          
+          <li> <a href="#">Слияния и поглощения (M&A)</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
               
-              <ul class="drop-down one-column hover-expand">
-                <!-- second level drop down -->
-                
-                <li><a href="m&a.html">Слияния и поглощения (M&A)</a></li>
-                <li><a href="acquisition-finance.html">Финансирование транзакций</a></li>
-                <li><a href="post-acquisition-services.html">Услуги после приобретения</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Фонды прямых инвестиций</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+              <li><a href="m&a.html">Слияния и поглощения (M&A)</a></li>
+              <li><a href="acquisition-finance.html">Финансирование транзакций</a></li>
+              <li><a href="post-acquisition-services.html">Услуги после приобретения</a></li>
+            </ul>
+          </li>
+          
+          <li> <a href="#">Фонды прямых инвестиций</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
               
-              <ul class="drop-down one-column hover-expand">
-                <!-- second level drop down -->
-                
-                <li><a href="investment-funds.html">Фонды прямых инвестиций</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Недвижимость</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+              <li><a href="investment-funds.html">Фонды прямых инвестиций</a></li>
+            </ul>
+          </li>
+          
+          <li> <a href="#">Недвижимость</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
               
-              <ul class="drop-down one-column hover-expand">
-                <!-- second level drop down -->
-                
-                <li><a href="real-estate.html">Недвижимость</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Туризм</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+              <li><a href="real-estate.html">Недвижимость</a></li>              
+            </ul>            
+          </li>
+          
+           <li> <a href="#">Туризм</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
               
-              <ul class="drop-down one-column hover-expand">
-                <!-- second level drop down -->
-                
-                <li><a href="hospitality-finance.html">Финансирование гостиницы и туризма</a></li>
-                <li><a href="hotel-sale.html">Продажа и покупка отелей и ресторанов</a></li>
-                <li><a href="destination-spa.html">Финансирование курортов и санаториев</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Финансирование инфраструктуры</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+              <li><a href="hospitality-finance.html">Финансирование гостиницы и туризма</a></li>
+              <li><a href="hotel-sale.html">Продажа и покупка отелей и ресторанов</a></li>
+              <li><a href="destination-spa.html">Финансирование курортов и санаториев</a></li>
+            </ul>            
+          </li>
+          
+          <li> <a href="#">Финансирование инфраструктуры</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
               
-              <ul class="drop-down one-column hover-expand">
-                <!-- second level drop down -->
-                
-                <li><a href="infrastructure-finance.html">Финансирование инфраструктурных проектов</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">Оценка бизнеса</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+              <li><a href="infrastructure-finance.html">Финансирование инфраструктурных проектов</a></li>
+            </ul>
+          </li>
+          
+          <li> <a href="#">Оценка бизнеса</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+            
+            <ul class="drop-down one-column hover-expand">
+              <!-- second level drop down -->
               
-              <ul class="drop-down one-column hover-expand">
-                <!-- second level drop down -->
-                
-                <li><a href="valuation.html">Оценка бизнеса</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="business-opportunities.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
-        <li><a href="blog-ru.html">НОВОСТИ И СООБЩЕНИЯ</a></li>
-        <li><a href="references.html">НАШ ОПЫТ</a></li>
-        <li><a href="contacts.html">КОНТАКТЫ</a></li>
-      </ul>
-    </div>
-    <!-- #EndLibraryItem -->
-  </nav>
+              <li><a href="valuation.html">Оценка бизнеса</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      
+      <li><a href="business-opportunities.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
+      <li><a href="blog-ru.html">НОВОСТИ И СООБЩЕНИЯ</a></li>
+      <li><a href="references.html">НАШ ОПЫТ</a></li>
+      <li><a href="contacts.html">КОНТАКТЫ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- #EndLibraryItem --></nav>
   <!-- mega menu end -->
   
   <article class="boxedcontainer"> 
@@ -702,34 +711,37 @@ Do the following if you're using your customized build of modernizr (http://www.
     
     <div class="clearfix"></div>
   </div>
-  <footer> 
-    <!-- #BeginLibraryItem "/Library/footer_russian.lbi" -->
-    <div class="footerbg">
-      <div class="footer">
-        <div class="footer_uzi">
-          <div class="footer_uzi_img"> <img src="../images/logospea-ru.png" alt="logospea"> </div>
-          <div class="footer_uzi_nav">
-            <ul>
-              <li><a href="https://www.linkedin.com/company/seecap?trk=top_nav_home" target="_blank"><i class="fa fa-linkedin" id="social"></i></a></li>
-              <li><a href="https://twitter.com/SeecapTw"><i class="fa fa-twitter" id="twitter"></i></a></li>
-            </ul>
-          </div>
-          <div class="footer_uzi_nav2">
-            <ul>
-              <li><a href="disclaimer.html">Отказ от ответственности</a></li>
-              <li><a href="sitemap-ru.html">Карта сайта</a></li>
-            </ul>
-          </div>
+  <footer><!-- #BeginLibraryItem "/Library/footer_russian.lbi" -->
+
+
+<footer>
+<div class="footerbg">
+    <div class="footer">
+      <div class="footer_uzi">
+        <div class="footer_uzi_img"> <img src="../images/logospea-ru.png" alt="logospea"> </div>
+        <div class="footer_uzi_nav">
+          <ul>
+            <li><a href="https://www.linkedin.com/company/seecap?trk=top_nav_home" target="_blank"><i class="fa fa-linkedin" id="social"></i></a></li>
+            <li><a href="https://twitter.com/SeecapTw"><i class="fa fa-twitter" id="twitter"></i></a></li>
+          </ul>
         </div>
-      </div>
-      <div class="footerbg1">
-        <div class="footer1">
-          <p>Авторские права ©SEECAP Konsalting doo 2001-2020</p>
+        <div class="footer_uzi_nav2">
+          <ul>
+            <li><a href="disclaimer.html">Отказ от ответственности</a></li>
+            <li><a href="sitemap-ru.html">Карта сайта</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    <!-- #EndLibraryItem --> 
-  </footer>
+    <div class="footerbg1">
+      <div class="footer1">
+        <p>Авторские права ©SEECAP Konsalting doo 2001-2021</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- #EndLibraryItem --></footer>
 </div>
 
 <!-- THE SCRIPT INITIALISATION --> 
