@@ -208,14 +208,14 @@ a {
         margin-left: auto;
     }
     .naslov h1 {
-        color: #b1b1b8;
+        color: blue;
         font-size: 1.7em;
         font-weight: 300 !important;
         text-align: left;
         margin-left: 0.4em;
     }
     .naslov h1 span {
-        color: #888891;
+        color: red;
         font-size: 2.7em;
         line-height: 1.5em;
         margin-right: 0.3em;
