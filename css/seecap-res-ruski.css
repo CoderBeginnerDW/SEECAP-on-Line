@@ -304,6 +304,7 @@ a {
     .vest h2 {
         text-align: center !important;
         font-weight: 400;
+        color: blue;
     }
     .vest h3 {
         text-align: left;
@@ -950,6 +951,7 @@ a {
     .vest h2 {
         text-align: center !important;
         font-weight: 400;
+        color: blue;
     }
     /*lightbox*/
     .vesti_slike {
