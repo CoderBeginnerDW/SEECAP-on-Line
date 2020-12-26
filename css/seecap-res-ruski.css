@@ -227,12 +227,12 @@ a {
     }
     .vest_solo ul li {
         line-height: 1.5em;
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: 300;
     }
     .vest_solo ol li {
         line-height: 1.5em;
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: 300;
     }
     .vest_solo img {
@@ -276,12 +276,12 @@ a {
     }
     .vest_solo h2 {
         text-align: center;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1.6em !important;
     }
     .vest_solo h3 {
         text-align: left;
-        font-weight: 300;
+        font-weight: 500;
         font-size: 1.1em !important;
     }
     .vest_solo p span, .vest_solo ul li span {
@@ -494,8 +494,8 @@ a {
         color: #58585F;
     }
     .more-blog3 {
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
         background-color: #f7e847;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
@@ -523,8 +523,8 @@ a {
         color: #58585F;
     }
     .more-blog5 {
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
         background-color: #f7e847;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
@@ -1099,16 +1099,15 @@ a {
         color: #58585F;
     }
     .more-blog3 {
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
         background-color: #f7e847;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
         padding: 0.6em 1.8em;
         width: 100%;
         text-align: center;
-        width: 100%;
-        text-align: center;
+
     }
     .more-blog3 a {
         font-size: 0.75em;
@@ -1132,8 +1131,8 @@ a {
         color: #58585F;
     }
     .more-blog5 {
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
         background-color: #f7e847;
         background-image: url(../images/decor_inside.png);
         background-repeat: repeat;
