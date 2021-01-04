@@ -248,6 +248,7 @@
   padding-left: 30px;
   text-decoration: underline 1.7px;
   text-decoration-color: red;
+  text-underline-offset: 4px;
 }
 /* default hover animation to show drop down */
 .flat-mega-menu > ul > li:hover .drop-down {
@@ -330,10 +331,10 @@
 }
 /*------- one column layout ----------*/
 .flat-mega-menu .drop-down.one-column {
-    width: 230px;
+    width: 250px;
 }
 .flat-mega-menu .drop-down .drop-down.one-column {
-    width: 200px;
+    width: 300px;
 }
 /*-------- two column layout ---------*/
 .flat-mega-menu .drop-down.two-column {
