@@ -139,7 +139,7 @@
 .footer1 p {
     color: #95999b;
     font-weight: 400;
-    font-size: 0.6em;
+    font-size: 1em;
     margin-bottom: 0.8em;
     text-align: center;
 }
@@ -214,11 +214,11 @@
     margin-right: 0.5em;
     margin-left: 0.2em;
 }
-#social {
-    font-size: 1.5em;
+#linkedin {
+    font-size: 2em;
 }
 #twitter {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .logospea {
     margin-top: 0;
@@ -303,7 +303,7 @@
         padding-right: 0.5em;
         list-style: none;
         color: #fff;
-        font-size: 0.8em;
+        font-size: 1em;
         text-transform: uppercase;
         font-weight: 400;
         letter-spacing: 0.1em;
@@ -361,7 +361,7 @@
     .footer1 p {
         color: #95999b;
         font-weight: 400;
-        font-size: 0.6em;
+        font-size: 1em;
         margin-bottom: 0.8em;
         text-align: center;
     }
