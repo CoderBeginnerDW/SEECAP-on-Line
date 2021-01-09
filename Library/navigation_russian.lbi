@@ -23,9 +23,9 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../ru/corporate-finance.html">Корпоративное финанcирование</a></li>
-              <li><a href="../ru/fdi.html">Прямые иностранные инвестиции (FDI)</a></li>
-              <li><a href="../ru/privatisation.html">Приватизация</a></li>
+              <li><a href="../ru/corporate-finance-ru.html">Корпоративное финанcирование</a></li>
+              <li><a href="../ru/fdi-ru.html">Прямые иностранные инвестиции (FDI)</a></li>
+              <li><a href="../ru/privatisation-ru.html">Приватизация</a></li>
               <li><a href="../ru/restructuring-ru.html">Реструктуризация</a></li>
             </ul>
           </li>
@@ -35,9 +35,9 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../ru/m&a.html">Слияния и поглощения (M&A)</a></li>
-              <li><a href="../ru/acquisition-finance.html">Финансирование транзакций</a></li>
-              <li><a href="../ru/post-acquisition-services.html">Услуги после приобретения</a></li>
+              <li><a href="../ru/m&a-ru.html">Слияния и поглощения (M&A)</a></li>
+              <li><a href="../ru/acquisition-finance-ru.html">Финансирование транзакций</a></li>
+              <li><a href="../ru/post-acquisition-services-ru.html">Услуги после приобретения</a></li>
             </ul>
           </li>
           
@@ -46,7 +46,7 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../ru/investment-funds.html">Фонды прямых инвестиций</a></li>
+              <li><a href="../ru/investment-funds-ru.html">Фонды прямых инвестиций</a></li>
             </ul>
           </li>
           
@@ -55,7 +55,7 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../ru/real-estate.html">Недвижимость</a></li>              
+              <li><a href="../ru/real-estate-ru.html">Недвижимость</a></li>              
             </ul>            
           </li>
           
@@ -64,9 +64,9 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../ru/hospitality-finance.html">Финансирование гостиницы и туризма</a></li>
-              <li><a href="../ru/hotel-sale.html">Продажа и покупка отелей и ресторанов</a></li>
-              <li><a href="../ru/destination-spa.html">Финансирование курортов и санаториев</a></li>
+              <li><a href="../ru/hospitality-finance-ru.html">Финансирование гостиницы и туризма</a></li>
+              <li><a href="../ru/hotel-sale-ru.html">Продажа и покупка отелей и ресторанов</a></li>
+              <li><a href="../ru/destination-spa-ru.html">Финансирование курортов и санаториев</a></li>
             </ul>            
           </li>
           
@@ -75,7 +75,7 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../ru/infrastructure-finance.html">Финансирование инфраструктурных проектов</a></li>
+              <li><a href="../ru/infrastructure-finance-ru.html">Финансирование инфраструктурных проектов</a></li>
             </ul>
           </li>
           
@@ -84,14 +84,14 @@
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
               
-              <li><a href="../ru/valuation.html">Оценка бизнеса</a></li>
+              <li><a href="../ru/valuation-ru.html">Оценка бизнеса</a></li>
             </ul>
           </li>
         </ul>
       </li>      
-      <li><a href="../ru/business-opportunities.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
+      <li><a href="../ru/business-opportunities-ru.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
       <li><a href="../ru/blog-ru.html">НОВОСТИ И СООБЩЕНИЯ</a></li>
-      <li><a href="../ru/references.html">НАШ ОПЫТ</a></li>
+      <li><a href="../ru/references-ru.html">НАШ ОПЫТ</a></li>
       <li><a href="../ru/contacts.html">КОНТАКТЫ</a></li>
     </ul>
   </div>
