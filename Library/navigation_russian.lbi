@@ -14,7 +14,7 @@
       <!-- website title class -->
       
       <li><a href="../ru/index-ru.html">О НАС</a></li>
-      <li><a href="">НАШИ УСЛУГИ</a>
+      <li><a href="">УСЛУГИ</a>
         <ul class="drop-down one-column hover-fade">
           <!-- first level drop down -->
           
@@ -41,7 +41,7 @@
             </ul>
           </li>
           
-          <li> <a href="#">ФОНДЫ ПРЯМЫХ ИНВЕСТИЦИЙ</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
+          <li> <a href="#">ИНВЕСТИЦИОННЫЕ ФОНДЫ</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
             
             <ul class="drop-down one-column hover-expand">
               <!-- second level drop down -->
@@ -90,7 +90,8 @@
         </ul>
       </li>      
       <li><a href="../ru/business-opportunities-ru.html">ВОЗМОЖНОСТИ ДЛЯ БИЗНЕСА</a></li>
-      <li><a href="../ru/blog-ru.html">НОВОСТИ И СООБЩЕНИЯ</a></li>
+       <li><a href="../ru/investment-properties-ru.html">ИНВЕСТИЦИОННАЯ НЕДВИЖИМОСТЬ</a></li>
+      <li><a href="../ru/blog-ru.html">БЛОГ</a></li>
       <li><a href="../ru/references-ru.html">НАШ ОПЫТ</a></li>
       <li><a href="../ru/contacts.html">КОНТАКТЫ</a></li>
     </ul>

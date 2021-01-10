@@ -3,11 +3,10 @@
 <footer>
 <div class="footerbg">
     <div class="footer">
-      <div class="footer_uzi">
-        <div class="footer_uzi_img"> <img src="../images/logospea-ru.png" alt="logospea"> </div>
+      <div class="footer_uzi">        
         <div class="footer_uzi_nav">
           <ul>
-            <li><a href="https://www.linkedin.com/company/seecap?trk=top_nav_home" target="_blank"><i class="fa fa-linkedin" id="social"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/seecap?trk=top_nav_home" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a></li>
             <li><a href="https://twitter.com/SeecapTw"><i class="fa fa-twitter" id="twitter"></i></a></li>
           </ul>
         </div>
