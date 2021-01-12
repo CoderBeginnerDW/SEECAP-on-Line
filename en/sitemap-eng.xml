@@ -9,7 +9,7 @@
 
 <url>
   <loc>https://www.seecap.com/en/index-eng.html</loc>
-  <lastmod>2021-01-08T14:27:36+00:00</lastmod>
+  <lastmod>2021-01-11T16:55:36+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -104,7 +104,7 @@
 </url>
 <url>
   <loc>https://www.seecap.com/en/investment-properties-eng.html</loc>
-  <lastmod>2021-01-08T14:27:36+00:00</lastmod>
+  <lastmod>2021-01-11T16:29:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -123,16 +123,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.seecap.com/en/property-prices-h12019-eng.html</loc>
-  <lastmod>2021-01-08T14:27:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.seecap.com/en/golden-hillside.html</loc>
-  <lastmod>2021-01-08T14:27:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.seecap.com/en/disclaimer-eng.html</loc>
   <lastmod>2021-01-08T14:27:35+00:00</lastmod>
   <priority>0.80</priority>
@@ -144,7 +134,7 @@
 </url>
 <url>
   <loc>https://www.seecap.com/en/sitemap-en.html</loc>
-  <lastmod>2021-01-08T14:27:39+00:00</lastmod>
+  <lastmod>2021-01-10T11:44:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -163,8 +153,18 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://www.seecap.com/en/golden-hillside.html</loc>
+  <lastmod>2021-01-09T17:29:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.seecap.com/en/ebrd-100m-facility.html</loc>
   <lastmod>2021-01-08T14:27:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.seecap.com/en/property-prices-h12019-eng.html</loc>
+  <lastmod>2021-01-08T14:27:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
