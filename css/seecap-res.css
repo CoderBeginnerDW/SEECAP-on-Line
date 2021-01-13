@@ -297,6 +297,7 @@ a {
         text-align: left;
         font-size: 1.3em !important;
         font-style: normal;
+        font-weight: 400;
     }
     .vest_solo a:hover {
         color: #f21d25;
