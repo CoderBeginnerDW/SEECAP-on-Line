@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 
 <html lang="sr">
-	<head>
-		<meta charset="utf-8" />
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SEECAP postavio novi sajt</title>
+<meta name="description" content="SEECAP je postavio novi sajt modernog izgleda i funckionalnosti ">
+<link href="../boilerplate.css" rel="stylesheet" type="text/css" />
+<link href="../css/seecap-res.css" rel="stylesheet" type="text/css" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<title>SEECAP postavio novi sajt</title>
-
-		<link href="../boilerplate.css" rel="stylesheet" type="text/css" />
-
-		<link href="../css/seecap-res.css" rel="stylesheet" type="text/css" />
-
-		<!-- 
+<!-- 
 
 To learn more about the conditional comments around the html tags at the top of the file:
 
@@ -30,100 +27,94 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 * you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
 
--->
+--> 
 
-		<!--[if lt IE 9]>
+<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<![endif]--> 
 
-		<script src="../respond.min.js"></script>
+<script src="../respond.min.js"></script> 
 
-		<!-- GOOGLE FONTS -->
+<!-- GOOGLE FONTS -->
 
-		<link
+<link
 			href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext"
 			rel="stylesheet"
 			type="text/css"
 		/>
-
-		<link
+<link
 			href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,latin-ext"
 			rel="stylesheet"
 			type="text/css"
 		/>
-
-		<link
+<link
 			href="../robotofont/stylesheet.css"
 			rel="stylesheet"
 			type="text/css"
 		/>
-
-		<script
+<script
 			type="text/javascript"
 			src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"
-		></script>
+		></script> 
 
-		<!-- CSS STYLE-->
+<!-- CSS STYLE-->
 
-		<link
+<link
 			rel="stylesheet"
 			type="text/css"
 			href="../css/style-sajt-usluge.css"
 			media="screen"
 		/>
 
-		<!--navigacija sa efektom, jezici-->
+<!--navigacija sa efektom, jezici-->
 
-		<link
+<link
 			rel="stylesheet"
 			type="text/css"
 			href="../css/creativelinkeffects/component.css"
 		/>
 
-		<!--navigacija-->
+<!--navigacija-->
 
-		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-		<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<!-- light box --> 
 
-		<!-- light box -->
-
-		<script type="text/javascript" src="../js/jquery.min.js"></script>
-
-		<link
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<link
 			rel="stylesheet"
 			type="text/css"
 			href="../js/lightbox/themes/default/jquery.lightbox.css"
 		/>
 
-		<!--[if IE 6]>
+<!--[if IE 6]>
 			<link
 				rel="stylesheet"
 				type="text/css"
 				href="js/lightbox/themes/default/jquery.lightbox.ie6.css"
 			/>
-		<![endif]-->
+		<![endif]--> 
 
-		<!--
+<!--
 
   <script type="text/javascript" src="src/jquery.lightbox.js"></script>
 
-  -->
+  --> 
 
-		<script
+<script
 			type="text/javascript"
 			src="../js/lightbox/jquery.lightbox.min.js"
-		></script>
-
-		<script type="text/javascript">
+		></script> 
+<script type="text/javascript">
 			jQuery(document).ready(function ($) {
 				$(".lightbox").lightbox();
 			});
-		</script>
+		</script> 
 
-		<!--google analytcs-->
+<!--google analytcs--> 
 
-		<script>
+<script>
 			(function (i, s, o, g, r, a, m) {
 				i["GoogleAnalyticsObject"] = r;
 				(i[r] =
@@ -148,224 +139,170 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 			ga("send", "pageview");
 		</script>
-	</head>
+</head>
 
-	<body>
-		<div class="wrap">
-			<div class="logobg">
-				<div class="logo">
-					<div class="jezici">
-						<nav class="cl-effect-3">
-							<a href="../en/index-eng.html">Eng</a>
-
-							<a href="../ru/index-ru.html">РУС</a>
-						</nav>
-					</div>
-
-					<img src="../images/seecap_logo.png" alt="SEECAP" />
-				</div>
-			</div>
-
-			<!-- mega menu start -->
-
-			<div class="flat-mega-menu">
-				<!-- flat-mega-menu class -->
-
-				<label for="mobile-button"> <i class="fa fa-bars"></i> </label>
-				<!-- mobile click button to show menu -->
-
-				<input
-					id="mobile-button"
-					type="checkbox"
-				/><!-- #BeginLibraryItem "/Library/navigation_serbian.lbi" -->
-<nav>
-  <div class="flat-mega-menu"> 
-    <!-- flat-mega-menu class -->
-    <label for="mobile-button"> <i class="fa fa-bars"></i> </label>
-    <!-- mobile click button to show menu -->
-    <input id="mobile-button" type="checkbox"/>
-    <ul class="collapse">
-      <!-- collapse class for collapse the drop down -->
-      
-      <li class="title .hide_desktop"> <a href="#"></a> </li>
-      <!-- website title class -->
-      
-      <li> <a href="../index.html">O NAMA</a></li>
-      <li> <a href="#">USLUGE</a>
-        <ul class="drop-down one-column hover-fade">
-          <!-- first level drop down -->
-          
-          <li> <a href="#">KORPORATIVNE FINANSIJE</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              
-              <li> <a href="m&a.html">Kupovina, prodaja, spajanje, pripajanje i preuzimanje kompanija (M&A)</a> </li>
-              <li> <a href="krediti.html">Krediti</a> </li>
-              <li> <a href="nebankarski_izvori_finansiranja.html">Nebankarski izvori finansiranja</a> </li>
-              <li> <a href="refinansiranje.html">Refinansiranje</a></li>
-              <li> <a href="usluge_restruktuiranje.html">Restrukturiranje</a> </li>
-              <li> <a href="procena_vrednosti_privrednih_drustava.html">Procena vrednosti</a> </li>
-              <li> <a href="finansijsko_modeliranje.html">Finansijsko modeliranje</a></li>
-              <li> <a href="strane_investicije_i_privatizacija.html">Strana ulaganja i privatizacija</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">NEKRETNINE</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              <li> <a href="finansiranje_nekretnina.html">Finansiranje nekretnina</a></li>
-              <li> <a href="nekretnine_projektno_finanasiranje.html">Projektno finansiranje</a></li>
-              <li> <a href="refinansiranje_kredita_i_projekata_za_investicionu_izgradnju.html">Refinansiranje kredita i projekata za investicionu izgradnju</a></li>
-              <li> <a href="prodaja_imovine.html">Prodaja imovine</a></li>
-              <li> <a href="obezbedjenje-kredita.html">Obezbeđenje kredita za projektno finansiranje</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">UGOSTITELJSTVO</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              
-              <li> <a href="finansiranja-hotela-i-ugostiteljstva.html">Finansiranje hotela i ugostiteljstva</a></li>
-              <li> <a href="prodaja_hotela.html">Prodaja i kupovina hotela</a></li>
-              <li> <a href="privatizacija_i_finansiranje_banja.html">Privatizacija i finansiranje banja</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">FINANSIRANJE PROJEKATA</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              <li><a href="finansiranje_velikih_projekata_i_infrastrukture.html">Infrastruktura</a></li>
-              <li><a href="ppp.html">JPP (PPP)</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">MALA I SREDNJA PREDUZEĆA</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              
-              <li> <a href="podrska_malim_i_srednjim_preduzecima.html">Podrška malim i srednjim preduzećima</a> </li>
-              <li> <a href="belbanet.html">BELBANET</a> </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li> <a href="poslovne_prilike.html">POSLOVNE PRILIKE</a></li>
-      <li> <a href="reference.html">REFERENCE</a></li>
-      <li> <a href="#">BLOG</a>
-        <ul class="drop-down one-column hover-fade">
-          <!-- first level drop down -->
-          
-          <li> <a href="vesti.html">VESTI</a> </li>
-          <li> <a href="saopstenja.html">SAOPŠTENJA</a> </li>
-          <li> <a href="clanci.html">ČLANCI</a> </li>
-        </ul>
-      </li>
-      <li> <a href="kontakt.html">KONTAKT</a></li>
-    </ul>
+<body>
+<div class="wrap">
+  <div class="logobg">
+    <div class="logo">
+      <div class="jezici">
+        <nav class="cl-effect-3"> <a href="../en/index-eng.html">Eng</a> <a href="../ru/index-ru.html">РУС</a> </nav>
+      </div>
+      <img src="../images/seecap_logo.png" alt="SEECAP" /> </div>
   </div>
-</nav>
-<!-- #EndLibraryItem --></div>
-
-			<!-- mega menu end -->
-
-			<div class="fluid naslov_pozadina hide_tablet">
-				<div class="fluid naslov">
-					<h1>BLOG <span>SAOPŠTENJA</span></h1>
-				</div>
-			</div>
-
-			<div id="container">
-				<div class="gridContainer clearfix"></div>
-
-				<div class="fluid vest_solo">
-					<h2>SEECAP POSTAVIO NOVI SAJT</h2>
-
-					<h3>06.05.2014.</h3>
-
-					<img src="../images/blog/sajt.jpg" alt="" class="slika-neka1" />
-
-					<p>
-						5. maja SEECAP je stavio u funkciju svoj novi sajt. Sajt funkcioniše
-						za sada samo na srpskom jeziku a njegove stranice na engleskom i
-						ruskom jeziku bi trebalo da prorade za nekoliko dana. Sajt uradila
-						agencija za dizajn i programiranje
-						<a href="http://www.gsf.rs/">Great Shade Factory</a> iz Novog Sada.
-					</p>
-
-					<p>
-						Sajt je modernog izgleda i potpuno prilagođen pristupu kako sa
-						ličnih računara tako i sa tablet uređaja i „smart“ telefona. Na
-						sajtu se, osim detaljnih informacija o našim uslugama i našem
-						dosadašnjem iskustvu od osnivanja 2001., nalaze i podaci o poslovnim
-						prilikama, interesantne privredne vesti kao i saopštenja o našim
-						aktivnostima.
-					</p>
-
-					<p>
-						Posebnu pažnju smo posvetili pojednostavljenju komunikacije sa našim
-						klijentima, budućim klijentima i generalnom javnošću. Pored
-						uobičajenih kontakt detalja, u trendu sa digitalnim društvom, svako
-						može da
-						<a href="blog_forma.html">popuni vrlo jednostavan formular</a> kako
-						bi dobijao tekstove iz našeg bloga kao i naš „Finansijski bilten“ na
-						svoj email. Ako više voli da te tekstove čita preko društvenih
-						mreža, omogućili smo da nas pratite preko
-						<a
-							href="http://www.linkedin.com/company/107246?trk=tyah&trkInfo=tarId%3A1398880063632%2Ctas%3Aseecap%2Cidx%3A1-1-1"
-							>LinkedIn</a
-						>
-						i <a href="https://twitter.com/SEECAPLocal">Twittera</a>.
-					</p>
-
-					<p>
-						Ako Vam se naš novi sajt dopada, javite nam, a ako imate sugestije
-						ili primedbe, dostavite nam ih, rado ćemo ih razmotriti i možda
-						usvojiti.
-					</p>
-
-					<div class="fluid more-blog">
-						<a href="blog_forma.html"
-							>PRIJAVITE SE DA DOBIJATE INFORMACIJE IZ BLOGA ELEKTRONSKIM
-							PUTEM</a
-						>
-					</div>
-
-					<div class="fluid more-blog2">
-						<a href="saopstenja.html">POVRATAK NA SOPŠTENJA </a>
-					</div>
-				</div>
-			</div>
-
-			<div class="gridContainer clearfix"></div><!-- #BeginLibraryItem "/Library/footer_serbian.lbi" -->
-<footer>
-  <div class="footerbg">
-    <div class="footer">
-      <div class="footer_uzi">
-        <div class="footer_uzi_nav">
-          <ul>
-            <li><a href="https://www.linkedin.com/company/18016802" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a></li>
-            <li><a href="https://twitter.com/SEECAPLocal"><i class="fa fa-twitter" id="twitter"></i></a></li>
+  
+  <!-- mega menu start --> 
+  
+  <!-- #BeginLibraryItem "/Library/navigation_serbian.lbi" -->
+  <nav>
+    <div class="flat-mega-menu"> 
+      <!-- flat-mega-menu class -->
+      <label for="mobile-button"> <i class="fa fa-bars"></i></label>
+      <!-- mobile click button to show menu -->
+      <input id="mobile-button" type="checkbox"/>
+      <ul class="collapse">
+        <!-- collapse class for collapse the drop down -->
+        <li class="title .hide_desktop"> <a href="#"></a></li>
+        <!-- website title class -->
+        <li> <a href="../index.html">O NAMA</a></li>
+        <li> <a href="#">USLUGE</a>
+          <ul class="drop-down one-column hover-fade">
+            <!-- first level drop down -->
+            <li> <a href="#">KORPORATIVNE FINANSIJE</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="m&a.html">Kupovina, prodaja, spajanje, pripajanje i preuzimanje kompanija (M&A)</a></li>
+                <li> <a href="krediti.html">Krediti</a></li>
+                <li> <a href="nebankarski_izvori_finansiranja.html">Nebankarski izvori finansiranja</a></li>
+                <li> <a href="refinansiranje.html">Refinansiranje</a></li>
+                <li> <a href="usluge_restruktuiranje.html">Restrukturiranje</a></li>
+                <li> <a href="procena_vrednosti_privrednih_drustava.html">Procena vrednosti</a></li>
+                <li> <a href="finansijsko_modeliranje.html">Finansijsko modeliranje</a></li>
+                <li> <a href="strane_investicije_i_privatizacija.html">Strana ulaganja i privatizacija</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">NEKRETNINE</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="finansiranje_nekretnina.html">Finansiranje nekretnina</a></li>
+                <li> <a href="nekretnine_projektno_finanasiranje.html">Projektno finansiranje</a></li>
+                <li> <a href="refinansiranje_kredita_i_projekata_za_investicionu_izgradnju.html">Refinansiranje kredita i projekata za investicionu izgradnju</a></li>
+                <li> <a href="prodaja_imovine.html">Prodaja imovine</a></li>
+                <li> <a href="obezbedjenje-kredita.html">Obezbeđenje kredita za projektno finansiranje</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">UGOSTITELJSTVO</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="finansiranja-hotela-i-ugostiteljstva.html">Finansiranje hotela i ugostiteljstva</a></li>
+                <li> <a href="prodaja_hotela.html">Prodaja i kupovina hotela</a></li>
+                <li> <a href="privatizacija_i_finansiranje_banja.html">Privatizacija i finansiranje banja</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">FINANSIRANJE PROJEKATA</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li><a href="finansiranje_velikih_projekata_i_infrastrukture.html">Infrastruktura</a></li>
+                <li><a href="ppp.html">JPP (PPP)</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">MALA I SREDNJA PREDUZEĆA</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="podrska_malim_i_srednjim_preduzecima.html">Podrška malim i srednjim preduzećima</a></li>
+                <li> <a href="belbanet.html">BELBANET</a></li>
+              </ul>
+            </li>
           </ul>
+        </li>
+        <li> <a href="poslovne_prilike.html">POSLOVNE PRILIKE</a></li>
+        <li> <a href="reference.html">REFERENCE</a></li>
+        <li> <a href="#">BLOG</a>
+          <ul class="drop-down one-column hover-fade">
+            <!-- first level drop down -->
+            <li> <a href="vesti.html">VESTI</a></li>
+            <li> <a href="saopstenja.html">SAOPŠTENJA</a></li>
+            <li> <a href="clanci.html">ČLANCI</a></li>
+          </ul>
+        </li>
+        <li> <a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- #EndLibraryItem --> <!-- mega menu end -->
+  <header>
+    <div class="fluid naslov_pozadina hide_tablet">
+      <div class="fluid naslov">
+        <h1>BLOG <span>SAOPŠTENJA</span></h1>
+      </div>
+    </div>
+  </header>
+  <div id="container">
+    <div class="gridContainer clearfix"></div>
+    <div class="fluid vest_solo">
+      <article>
+        <h2>SEECAP POSTAVIO NOVI SAJT</h2>
+        <h3>06.05.2014.</h3>
+        <img src="../images/blog/sajt.jpg" alt="" class="slika-neka1" />
+        <p> 5. maja SEECAP je stavio u funkciju svoj novi sajt. Sajt funkcioniše
+          za sada samo na srpskom jeziku a njegove stranice na engleskom i
+          ruskom jeziku bi trebalo da prorade za nekoliko dana. Sajt uradila
+          agencija za dizajn i programiranje <a href="http://www.gsf.rs/">Great Shade Factory</a> iz Novog Sada. </p>
+        <p> Sajt je modernog izgleda i potpuno prilagođen pristupu kako sa
+          ličnih računara tako i sa tablet uređaja i „smart“ telefona. Na
+          sajtu se, osim detaljnih informacija o našim uslugama i našem
+          dosadašnjem iskustvu od osnivanja 2001., nalaze i podaci o poslovnim
+          prilikama, interesantne privredne vesti kao i saopštenja o našim
+          aktivnostima. </p>
+        <p> Posebnu pažnju smo posvetili pojednostavljenju komunikacije sa našim
+          klijentima, budućim klijentima i generalnom javnošću. Pored
+          uobičajenih kontakt detalja, u trendu sa digitalnim društvom, svako
+          može da <a href="blog_forma.html">popuni vrlo jednostavan formular</a> kako
+          bi dobijao tekstove iz našeg bloga kao i naš „Finansijski bilten“ na
+          svoj email. Ako više voli da te tekstove čita preko društvenih
+          mreža, omogućili smo da nas pratite preko <a
+        href="http://www.linkedin.com/company/107246?trk=tyah&trkInfo=tarId%3A1398880063632%2Ctas%3Aseecap%2Cidx%3A1-1-1"> LinkedIn</a> i <a href="https://twitter.com/SEECAPLocal">Twittera</a>. </p>
+        <p> Ako Vam se naš novi sajt dopada, javite nam, a ako imate sugestije
+          ili primedbe, dostavite nam ih, rado ćemo ih razmotriti i možda
+          usvojiti. </p>
+      </article>
+      <div class="fluid more-blog"> <a href="blog_forma.html" >PRIJAVITE SE DA DOBIJATE INFORMACIJE IZ BLOGA ELEKTRONSKIM PUTEM</a> </div>
+      <div class="fluid more-blog2"> <a href="saopstenja.html">POVRATAK NA SOPŠTENJA</a> </div>
+    </div>
+  </div>
+  <div class="gridContainer clearfix"></div>
+  <!-- #BeginLibraryItem "/Library/footer_serbian.lbi" -->
+  <footer>
+    <div class="footerbg">
+      <div class="footer">
+        <div class="footer_uzi">
+          <div class="footer_uzi_nav">
+            <ul>
+              <li><a href="https://www.linkedin.com/company/18016802" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a></li>
+              <li><a href="https://twitter.com/SEECAPLocal"><i class="fa fa-twitter" id="twitter"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer_uzi_nav2">
+            <ul>
+              <li><a href="odricanje_od_odgovornosti.html">Odricanje od pravne odgovornosti</a></li>
+              <li><a href="karijera.html">Karijera</a></li>
+              <li><a href="mapa_sajta.html">mapa sajta</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="footer_uzi_nav2">
-          <ul>
-            <li><a href="odricanje_od_odgovornosti.html">Odricanje od pravne odgovornosti</a></li>
-            <li><a href="karijera.html">Karijera</a></li>
-            <li><a href="mapa_sajta.html">mapa sajta</a></li>
-          </ul>
+      </div>
+      <div class="footerbg1">
+        <div class="footer1">
+          <p>Autorska prava ©SEECAP Konsalting doo 2001-2021.</p>
         </div>
       </div>
     </div>
-    <div class="footerbg1">
-      <div class="footer1">
-        <p>Autorska prava ©SEECAP Konsalting doo 2001-2021.</p>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- #EndLibraryItem --></div>
-	</body>
+  </footer>
+  <!-- #EndLibraryItem --></div>
+</body>
 </html>

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 
 <html lang="sr">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Finansijsko modeliranje</title>
-		<meta
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Finansijsko modeliranje</title>
+<meta
 			name="keywords"
 			content="what if analiza, prelomna tačka, break even, analiza gotovinsih tokova, projekcija gotovinskih tokova, isplativost investicije, isplativost ulaganja,  neto sadašnja vrednost, NPV, diskontovani novčani tok, DNT metoda,"
 		/>
-		<meta
+<meta
 			name="description"
 			content="Finansijsko modeliranje za poslovnu analizu, strategijsko planiranje i projektovanje poslovanja, procenu isplativosti investicija ili procenu vrednosti preduzeCa"
 		/>
-		<link href="../boilerplate.css" rel="stylesheet" type="text/css" />
-		<link href="../css/seecap-res.css" rel="stylesheet" type="text/css" />
+<link href="../boilerplate.css" rel="stylesheet" type="text/css" />
+<link href="../css/seecap-res.css" rel="stylesheet" type="text/css" />
 
-		<!-- 
+<!-- 
 
 To learn more about the conditional comments around the html tags at the top of the file:
 
@@ -34,94 +34,94 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 * you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
 
--->
+--> 
 
-		<!--[if lt IE 9]>
+<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<![endif]--> 
 
-		<script src="../respond.min.js"></script>
+<script src="../respond.min.js"></script> 
 
-		<!-- GOOGLE FONTS -->
+<!-- GOOGLE FONTS -->
 
-		<link
+<link
 			href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext"
 			rel="stylesheet"
 			type="text/css"
 		/>
-		<link
+<link
 			href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,latin-ext"
 			rel="stylesheet"
 			type="text/css"
 		/>
-		<link
+<link
 			href="../robotofont/stylesheet.css"
 			rel="stylesheet"
 			type="text/css"
 		/>
-		<script
+<script
 			type="text/javascript"
 			src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"
-		></script>
+		></script> 
 
-		<!-- CSS STYLE-->
+<!-- CSS STYLE-->
 
-		<link
+<link
 			rel="stylesheet"
 			type="text/css"
 			href="../css/style-sajt-usluge.css"
 			media="screen"
 		/>
 
-		<!--navigacija sa efektom, jezici-->
+<!--navigacija sa efektom, jezici-->
 
-		<link
+<link
 			rel="stylesheet"
 			type="text/css"
 			href="../css/creativelinkeffects/component.css"
 		/>
 
-		<!--navigacija-->
+<!--navigacija-->
 
-		<link href="../css/style.css" rel="stylesheet" type="text/css" />
-		<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-		<!-- light box -->
+<!-- light box --> 
 
-		<script type="text/javascript" src="../js/jquery.min.js"></script>
-		<link
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<link
 			rel="stylesheet"
 			type="text/css"
 			href="../js/lightbox/themes/default/jquery.lightbox.css"
 		/>
 
-		<!--[if IE 6]>
+<!--[if IE 6]>
 			<link
 				rel="stylesheet"
 				type="text/css"
 				href="js/lightbox/themes/default/jquery.lightbox.ie6.css"
 			/>
-		<![endif]-->
+		<![endif]--> 
 
-		<!--
+<!--
 
   <script type="text/javascript" src="src/jquery.lightbox.js"></script>
 
-  -->
+  --> 
 
-		<script
+<script
 			type="text/javascript"
 			src="../js/lightbox/jquery.lightbox.min.js"
-		></script>
-		<script type="text/javascript">
+		></script> 
+<script type="text/javascript">
 			jQuery(document).ready(function ($) {
 				$(".lightbox").lightbox();
 			});
-		</script>
+		</script> 
 
-		<!--google analytcs-->
+<!--google analytcs--> 
 
-		<script>
+<script>
 			(function (i, s, o, g, r, a, m) {
 				i["GoogleAnalyticsObject"] = r;
 				(i[r] =
@@ -146,247 +146,215 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 			ga("send", "pageview");
 		</script>
-	</head>
+</head>
 
-	<body>
-		<div class="wrap">
-			<div class="logobg">
-				<div class="logo">
-					<div class="jezici">
-						<nav class="cl-effect-3">
-							<a href="../en/index-eng.html">Eng</a>
-							<a href="../ru/index-ru.html">РУС</a>
-						</nav>
-					</div>
-					<img src="../images/seecap_logo.png" alt="SEECAP" />
-				</div>
-			</div>
-
-			<!-- mega menu start -->
-
-			<div class="flat-mega-menu">
-				<!-- flat-mega-menu class -->
-
-				<label for="mobile-button"> <i class="fa fa-bars"></i> </label>
-				<!-- mobile click button to show menu -->
-
-				<input id="mobile-button" type="checkbox" /><!-- #BeginLibraryItem "/Library/navigation_serbian.lbi" -->
-<nav>
-  <div class="flat-mega-menu"> 
-    <!-- flat-mega-menu class -->
-    <label for="mobile-button"> <i class="fa fa-bars"></i> </label>
-    <!-- mobile click button to show menu -->
-    <input id="mobile-button" type="checkbox"/>
-    <ul class="collapse">
-      <!-- collapse class for collapse the drop down -->
-      
-      <li class="title .hide_desktop"> <a href="#"></a> </li>
-      <!-- website title class -->
-      
-      <li> <a href="../index.html">O NAMA</a></li>
-      <li> <a href="#">USLUGE</a>
-        <ul class="drop-down one-column hover-fade">
-          <!-- first level drop down -->
-          
-          <li> <a href="#">KORPORATIVNE FINANSIJE</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              
-              <li> <a href="m&a.html">Kupovina, prodaja, spajanje, pripajanje i preuzimanje kompanija (M&A)</a> </li>
-              <li> <a href="krediti.html">Krediti</a> </li>
-              <li> <a href="nebankarski_izvori_finansiranja.html">Nebankarski izvori finansiranja</a> </li>
-              <li> <a href="refinansiranje.html">Refinansiranje</a></li>
-              <li> <a href="usluge_restruktuiranje.html">Restrukturiranje</a> </li>
-              <li> <a href="procena_vrednosti_privrednih_drustava.html">Procena vrednosti</a> </li>
-              <li> <a href="finansijsko_modeliranje.html">Finansijsko modeliranje</a></li>
-              <li> <a href="strane_investicije_i_privatizacija.html">Strana ulaganja i privatizacija</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">NEKRETNINE</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              <li> <a href="finansiranje_nekretnina.html">Finansiranje nekretnina</a></li>
-              <li> <a href="nekretnine_projektno_finanasiranje.html">Projektno finansiranje</a></li>
-              <li> <a href="refinansiranje_kredita_i_projekata_za_investicionu_izgradnju.html">Refinansiranje kredita i projekata za investicionu izgradnju</a></li>
-              <li> <a href="prodaja_imovine.html">Prodaja imovine</a></li>
-              <li> <a href="obezbedjenje-kredita.html">Obezbeđenje kredita za projektno finansiranje</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">UGOSTITELJSTVO</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              
-              <li> <a href="finansiranja-hotela-i-ugostiteljstva.html">Finansiranje hotela i ugostiteljstva</a></li>
-              <li> <a href="prodaja_hotela.html">Prodaja i kupovina hotela</a></li>
-              <li> <a href="privatizacija_i_finansiranje_banja.html">Privatizacija i finansiranje banja</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">FINANSIRANJE PROJEKATA</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              <li><a href="finansiranje_velikih_projekata_i_infrastrukture.html">Infrastruktura</a></li>
-              <li><a href="ppp.html">JPP (PPP)</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">MALA I SREDNJA PREDUZEĆA</a> <i class="fa fa-angle-right"></i> 
-            <!-- fontAwesome icon -->
-            
-            <ul class="drop-down one-column hover-expand">
-              <!-- second level drop down -->
-              
-              <li> <a href="podrska_malim_i_srednjim_preduzecima.html">Podrška malim i srednjim preduzećima</a> </li>
-              <li> <a href="belbanet.html">BELBANET</a> </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li> <a href="poslovne_prilike.html">POSLOVNE PRILIKE</a></li>
-      <li> <a href="reference.html">REFERENCE</a></li>
-      <li> <a href="#">BLOG</a>
-        <ul class="drop-down one-column hover-fade">
-          <!-- first level drop down -->
-          
-          <li> <a href="vesti.html">VESTI</a> </li>
-          <li> <a href="saopstenja.html">SAOPŠTENJA</a> </li>
-          <li> <a href="clanci.html">ČLANCI</a> </li>
-        </ul>
-      </li>
-      <li> <a href="kontakt.html">KONTAKT</a></li>
-    </ul>
+<body>
+<div class="wrap">
+  <div class="logobg">
+    <div class="logo">
+      <div class="jezici">
+        <nav class="cl-effect-3"> <a href="../en/index-eng.html">Eng</a> <a href="../ru/index-ru.html">РУС</a> </nav>
+      </div>
+      <img src="../images/seecap_logo.png" alt="SEECAP" /> </div>
   </div>
-</nav>
-<!-- #EndLibraryItem --></div>
-
-			<!-- mega menu end -->
-
-			<div class="fluid naslov_pozadina hide_tablet">
-				<div class="fluid naslov">
-					<h1><span>USLUGE</span>KORPORATIVNE FINANSIJE</h1>
-				</div>
-			</div>
-			<div id="container">
-				<div class="gridContainer clearfix"></div>
-				<div class="fluid vest_solo">
-					<h2>FINANSIJSKO MODELIRANJE</h2>
-					<img
-						src="../images/usluge/finansijsko_modeliranje.jpg"
-						alt="finansijsko modeliranje"
-					/>
-					<p>
-						Finansijsko modeliranje je conditio sine qua non svake značajnije
-						finansijske odluke u privredi, bilo da se radi o izboru kupovini
-						nove mašine ili njenom liziranju, izbora kredita, ulaganje u
-						projekat ili kupovinu preduzeća ili nekretnine. Finansijski model
-						simulira stvarnost ili budućnost u pogledu finansijskih efekata
-						određenih privrednih odluka. Finansijsko modeliranje je na
-						matematici i finansijskim postulatima bazirano predviđanje budućih
-						događaja u vezi sa pojedinačnom investicijom ili portfolijom
-						investicija, projekcijom mogućnosti vraćanja uzetog kredita,
-						sagledavanjem isplativosti ulaganja u novu mašinu ili u novi
-						projekat, projekcija izlaska preduzeća iz krize i restrukturiranja.
-					</p>
-					<p>
-						Finansijski modeli, koji se danas najčešće rade u Microsoft Excel
-						programu, su nezaobilazno oruđe u gotovo svakoj finansijskoj odluci
-						ili projektu. Primenjuju se za potrebe industrijskih preduzeća,
-						banaka, u visokogradnji i niskogradnji, finansiranju projekata
-						infrastrukture i projektnom finansiranju investicione izgradnje,
-						proceni isplativost projekta, cena kapitala itd.
-					</p>
-					<p>
-						Finansijski model je složeni tabelarni proračun (spreadsheed) koji
-						na osnovu ulaznih podataka primenom određenih matematičkih formula i
-						finansijskih postulata i pretpostavki daje određene rezultate. On se
-						razlikuje od obične radne sveske (workbook) u Excel programu koja
-						sadrži bazu podataka (na primer godišnji bilans stanja preduzeća) po
-						tome što sadrži inpute, pretpostavke, scenarija, formule na osnovu
-						kojih se kreiraju projekcije bilansa stanja, bilansa uspeha,
-						gotovinskih tokova itd. Finansijski model je dinamičan jer se
-						promenom njegovih delova menjaju krajnji rezultati. U finansijskom
-						modelu postoji uzročno-posledična veza između njegovih delova i
-						njihovom izmenom dolazi do niza drugih promena i novih rezultata.
-					</p>
-					<p>
-						Za finansijsko modeliranje potrebno je dobro poznavanje samog Excel
-						programa, matematike ali i računovodstva, finansija, određene
-						industrijske grane ili sektora za koji se vrši modeliranje i,
-						naravno, višegodišnja praksa i iskustvo.
-					</p>
-					<p>Mi kreiramo finansijske modele za naše klijente prilikom</p>
-					<ul>
-						<li>pripreme poslovnih planova</li>
-						<li>pripremu projekcije finansijskih izveštaja (3-5 godina)</li>
-						<li>pripremu projekcija gotovinskih tokova (3-5 godina)</li>
-						<li>dobijanje kredita i projekciju sposobnosti otplate kredita</li>
-						<li>projekciju isplativost investicionog ulaganja</li>
-						<li>dokapitalizaciju</li>
-						<li>procenu vrednosti kapitala ili nekretnina</li>
-						<li>procenu prosečne ponderisane cene kapitala (PPCK/WACC)</li>
-						<li>refinansiranje i restrukturiranje</li>
-						<li>
-							kupovinu drugog preduzeća, spajanja i pripajanja preduzeća (M&A)
-						</li>
-						<li>projektno finansiranje</li>
-						<li>finansiranje projekata</li>
-						<li>formulisanje ponuda na tenderima</li>
-						<li>poresko planiranje</li>
-						<li>druge potrebe.</li>
-					</ul>
-					<p>Analitičke metode koje najčešće koristimo su</p>
-					<ul>
-						<li>racio analize</li>
-						<li>Du Pont analiza</li>
-						<li>what if analiza</li>
-						<li>Monte Carlo simulacija</li>
-						<li>prelomna tačka (break even)</li>
-						<li>analiza gotovinskih tokova</li>
-						<li>projekcija gotovinskih tokova</li>
-						<li>isplativost investicije</li>
-						<li>isplativost ulaganja</li>
-						<li>neto sadašnja vrednost (NPV)</li>
-						<li>diskontovani novčani tok (DNT/DCF metoda) itd.</li>
-					</ul>
-					<p>
-						Naši finansijski modeli prolaze kroz temeljnu proveru i verifikaciju
-						tačnosti unetih podataka, interne konzistentnosti, matematičkih
-						formula i algoritama, realnosti pretpostavki baziranih na prethodnim
-						istraživanjima i kasnijoj proveri istih kroz dinamičku simulaciju
-						različitih scenarija inputa i rezultata.
-					</p>
-				</div>
-			</div>
-			<div class="gridContainer clearfix"></div><!-- #BeginLibraryItem "/Library/footer_serbian.lbi" -->
-<footer>
-  <div class="footerbg">
-    <div class="footer">
-      <div class="footer_uzi">
-        <div class="footer_uzi_nav">
-          <ul>
-            <li><a href="https://www.linkedin.com/company/18016802" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a></li>
-            <li><a href="https://twitter.com/SEECAPLocal"><i class="fa fa-twitter" id="twitter"></i></a></li>
+  
+  <!-- mega menu start --> 
+  
+  <!-- #BeginLibraryItem "/Library/navigation_serbian.lbi" -->
+  <nav>
+    <div class="flat-mega-menu"> 
+      <!-- flat-mega-menu class -->
+      <label for="mobile-button"> <i class="fa fa-bars"></i></label>
+      <!-- mobile click button to show menu -->
+      <input id="mobile-button" type="checkbox"/>
+      <ul class="collapse">
+        <!-- collapse class for collapse the drop down -->
+        <li class="title .hide_desktop"> <a href="#"></a></li>
+        <!-- website title class -->
+        <li> <a href="../index.html">O NAMA</a></li>
+        <li> <a href="#">USLUGE</a>
+          <ul class="drop-down one-column hover-fade">
+            <!-- first level drop down -->
+            <li> <a href="#">KORPORATIVNE FINANSIJE</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="m&a.html">Kupovina, prodaja, spajanje, pripajanje i preuzimanje kompanija (M&A)</a></li>
+                <li> <a href="krediti.html">Krediti</a></li>
+                <li> <a href="nebankarski_izvori_finansiranja.html">Nebankarski izvori finansiranja</a></li>
+                <li> <a href="refinansiranje.html">Refinansiranje</a></li>
+                <li> <a href="usluge_restruktuiranje.html">Restrukturiranje</a></li>
+                <li> <a href="procena_vrednosti_privrednih_drustava.html">Procena vrednosti</a></li>
+                <li> <a href="finansijsko_modeliranje.html">Finansijsko modeliranje</a></li>
+                <li> <a href="strane_investicije_i_privatizacija.html">Strana ulaganja i privatizacija</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">NEKRETNINE</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="finansiranje_nekretnina.html">Finansiranje nekretnina</a></li>
+                <li> <a href="nekretnine_projektno_finanasiranje.html">Projektno finansiranje</a></li>
+                <li> <a href="refinansiranje_kredita_i_projekata_za_investicionu_izgradnju.html">Refinansiranje kredita i projekata za investicionu izgradnju</a></li>
+                <li> <a href="prodaja_imovine.html">Prodaja imovine</a></li>
+                <li> <a href="obezbedjenje-kredita.html">Obezbeđenje kredita za projektno finansiranje</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">UGOSTITELJSTVO</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="finansiranja-hotela-i-ugostiteljstva.html">Finansiranje hotela i ugostiteljstva</a></li>
+                <li> <a href="prodaja_hotela.html">Prodaja i kupovina hotela</a></li>
+                <li> <a href="privatizacija_i_finansiranje_banja.html">Privatizacija i finansiranje banja</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">FINANSIRANJE PROJEKATA</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li><a href="finansiranje_velikih_projekata_i_infrastrukture.html">Infrastruktura</a></li>
+                <li><a href="ppp.html">JPP (PPP)</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">MALA I SREDNJA PREDUZEĆA</a> <i class="fa fa-angle-right"></i> 
+              <!-- fontAwesome icon -->
+              <ul class="drop-down one-column hover-expand">
+                <!-- second level drop down -->
+                <li> <a href="podrska_malim_i_srednjim_preduzecima.html">Podrška malim i srednjim preduzećima</a></li>
+                <li> <a href="belbanet.html">BELBANET</a></li>
+              </ul>
+            </li>
           </ul>
+        </li>
+        <li> <a href="poslovne_prilike.html">POSLOVNE PRILIKE</a></li>
+        <li> <a href="reference.html">REFERENCE</a></li>
+        <li> <a href="#">BLOG</a>
+          <ul class="drop-down one-column hover-fade">
+            <!-- first level drop down -->
+            <li> <a href="vesti.html">VESTI</a></li>
+            <li> <a href="saopstenja.html">SAOPŠTENJA</a></li>
+            <li> <a href="clanci.html">ČLANCI</a></li>
+          </ul>
+        </li>
+        <li> <a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- #EndLibraryItem --> <!-- mega menu end -->
+  <header>
+    <div class="fluid naslov_pozadina hide_tablet">
+      <div class="fluid naslov">
+        <h1><span>USLUGE</span>KORPORATIVNE FINANSIJE</h1>
+      </div>
+    </div>
+  </header>
+  <div id="container">
+    <div class="gridContainer clearfix"></div>
+    <div class="fluid vest_solo">
+      <article>
+        <h2>FINANSIJSKO MODELIRANJE</h2>
+        <img src="../images/usluge/finansijsko_modeliranje.jpg" alt="finansijsko modeliranje"/>
+        <p> Finansijsko modeliranje je conditio sine qua non svake značajnije
+          finansijske odluke u privredi, bilo da se radi o izboru kupovini
+          nove mašine ili njenom liziranju, izbora kredita, ulaganje u
+          projekat ili kupovinu preduzeća ili nekretnine. Finansijski model
+          simulira stvarnost ili budućnost u pogledu finansijskih efekata
+          određenih privrednih odluka. Finansijsko modeliranje je na
+          matematici i finansijskim postulatima bazirano predviđanje budućih
+          događaja u vezi sa pojedinačnom investicijom ili portfolijom
+          investicija, projekcijom mogućnosti vraćanja uzetog kredita,
+          sagledavanjem isplativosti ulaganja u novu mašinu ili u novi
+          projekat, projekcija izlaska preduzeća iz krize i restrukturiranja. </p>
+        <p> Finansijski modeli, koji se danas najčešće rade u Microsoft Excel
+          programu, su nezaobilazno oruđe u gotovo svakoj finansijskoj odluci
+          ili projektu. Primenjuju se za potrebe industrijskih preduzeća,
+          banaka, u visokogradnji i niskogradnji, finansiranju projekata
+          infrastrukture i projektnom finansiranju investicione izgradnje,
+          proceni isplativost projekta, cena kapitala itd. </p>
+        <p> Finansijski model je složeni tabelarni proračun (spreadsheed) koji
+          na osnovu ulaznih podataka primenom određenih matematičkih formula i
+          finansijskih postulata i pretpostavki daje određene rezultate. On se
+          razlikuje od obične radne sveske (workbook) u Excel programu koja
+          sadrži bazu podataka (na primer godišnji bilans stanja preduzeća) po
+          tome što sadrži inpute, pretpostavke, scenarija, formule na osnovu
+          kojih se kreiraju projekcije bilansa stanja, bilansa uspeha,
+          gotovinskih tokova itd. Finansijski model je dinamičan jer se
+          promenom njegovih delova menjaju krajnji rezultati. U finansijskom
+          modelu postoji uzročno-posledična veza između njegovih delova i
+          njihovom izmenom dolazi do niza drugih promena i novih rezultata. </p>
+        <p> Za finansijsko modeliranje potrebno je dobro poznavanje samog Excel
+          programa, matematike ali i računovodstva, finansija, određene
+          industrijske grane ili sektora za koji se vrši modeliranje i,
+          naravno, višegodišnja praksa i iskustvo. </p>
+        <p>Mi kreiramo finansijske modele za naše klijente prilikom</p>
+        <ul>
+          <li>pripreme poslovnih planova</li>
+          <li>pripremu projekcije finansijskih izveštaja (3-5 godina)</li>
+          <li>pripremu projekcija gotovinskih tokova (3-5 godina)</li>
+          <li>dobijanje kredita i projekciju sposobnosti otplate kredita</li>
+          <li>projekciju isplativost investicionog ulaganja</li>
+          <li>dokapitalizaciju</li>
+          <li>procenu vrednosti kapitala ili nekretnina</li>
+          <li>procenu prosečne ponderisane cene kapitala (PPCK/WACC)</li>
+          <li>refinansiranje i restrukturiranje</li>
+          <li> kupovinu drugog preduzeća, spajanja i pripajanja preduzeća (M&A) </li>
+          <li>projektno finansiranje</li>
+          <li>finansiranje projekata</li>
+          <li>formulisanje ponuda na tenderima</li>
+          <li>poresko planiranje</li>
+          <li>druge potrebe.</li>
+        </ul>
+        <p>Analitičke metode koje najčešće koristimo su</p>
+        <ul>
+          <li>racio analize</li>
+          <li>Du Pont analiza</li>
+          <li>what if analiza</li>
+          <li>Monte Carlo simulacija</li>
+          <li>prelomna tačka (break even)</li>
+          <li>analiza gotovinskih tokova</li>
+          <li>projekcija gotovinskih tokova</li>
+          <li>isplativost investicije</li>
+          <li>isplativost ulaganja</li>
+          <li>neto sadašnja vrednost (NPV)</li>
+          <li>diskontovani novčani tok (DNT/DCF metoda) itd.</li>
+        </ul>
+        <p> Naši finansijski modeli prolaze kroz temeljnu proveru i verifikaciju
+          tačnosti unetih podataka, interne konzistentnosti, matematičkih
+          formula i algoritama, realnosti pretpostavki baziranih na prethodnim
+          istraživanjima i kasnijoj proveri istih kroz dinamičku simulaciju
+          različitih scenarija inputa i rezultata. </p>
+      </article>
+    </div>
+  </div>
+  <div class="gridContainer clearfix"></div>
+  <!-- #BeginLibraryItem "/Library/footer_serbian.lbi" -->
+  <footer>
+    <div class="footerbg">
+      <div class="footer">
+        <div class="footer_uzi">
+          <div class="footer_uzi_nav">
+            <ul>
+              <li><a href="https://www.linkedin.com/company/18016802" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a></li>
+              <li><a href="https://twitter.com/SEECAPLocal"><i class="fa fa-twitter" id="twitter"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer_uzi_nav2">
+            <ul>
+              <li><a href="odricanje_od_odgovornosti.html">Odricanje od pravne odgovornosti</a></li>
+              <li><a href="karijera.html">Karijera</a></li>
+              <li><a href="mapa_sajta.html">mapa sajta</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="footer_uzi_nav2">
-          <ul>
-            <li><a href="odricanje_od_odgovornosti.html">Odricanje od pravne odgovornosti</a></li>
-            <li><a href="karijera.html">Karijera</a></li>
-            <li><a href="mapa_sajta.html">mapa sajta</a></li>
-          </ul>
+      </div>
+      <div class="footerbg1">
+        <div class="footer1">
+          <p>Autorska prava ©SEECAP Konsalting doo 2001-2021.</p>
         </div>
       </div>
     </div>
-    <div class="footerbg1">
-      <div class="footer1">
-        <p>Autorska prava ©SEECAP Konsalting doo 2001-2021.</p>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- #EndLibraryItem --></div>
-	</body>
+  </footer>
+  <!-- #EndLibraryItem --></div>
+</body>
 </html>
