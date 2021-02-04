@@ -9,6 +9,10 @@
 
 <url>
   <loc>https://www.seecap.com/ru/index-ru.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.seecap.com/index.html" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.seecap.com/en/index-eng.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://www.seecap.com/ru/index-ru.html" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.seecap.com/index.html" />
   <lastmod>2021-01-11T16:47:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
