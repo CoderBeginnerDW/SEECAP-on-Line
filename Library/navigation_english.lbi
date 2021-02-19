@@ -12,7 +12,7 @@
   <li class="title .hide_desktop"> <a href="#"></a> </li>
   <!-- website title class -->
   
-  <li><a href="../en/index-en.html">ABOUT</a></li>
+  <li><a href="../en/index.html">ABOUT</a></li>
   <li><a href="">OUR SERVICES</a>
     <ul class="drop-down one-column hover-fade">
       <!-- first level drop down -->

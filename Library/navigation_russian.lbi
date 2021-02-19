@@ -13,7 +13,7 @@
       <li class="title .hide_desktop"> <a href="#"></a> </li>
       <!-- website title class -->
       
-      <li><a href="../ru/index-ru.html">О НАС</a></li>
+      <li><a href="../ru/index.html">О НАС</a></li>
       <li><a href="">УСЛУГИ</a>
         <ul class="drop-down one-column hover-fade">
           <!-- first level drop down -->
