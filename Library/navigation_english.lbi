@@ -12,7 +12,7 @@
   <li class="title .hide_desktop"> <a href="#"></a> </li>
   <!-- website title class -->
   
-  <li><a href="../en/index-eng.html">ABOUT</a></li>
+  <li><a href="../en/index-en.html">ABOUT</a></li>
   <li><a href="">OUR SERVICES</a>
     <ul class="drop-down one-column hover-fade">
       <!-- first level drop down -->
@@ -22,10 +22,10 @@
         <ul class="drop-down one-column hover-expand">
           <!-- second level drop down -->
           
-          <li><a href="../en/corporate-finance-eng.html">Corporate finance</a></li>
-          <li><a href="../en/fdi-eng.html">FDI and market entry support</a></li>
-          <li><a href="../en/privatisation-eng.html">Privatisation</a></li>
-          <li><a href="../en/restructuring-eng.html">Restructuring</a></li>
+          <li><a href="../en/corporate-finance.html">Corporate finance</a></li>
+          <li><a href="../en/fdi-en.html">FDI and market entry support</a></li>
+          <li><a href="../en/privatisation-en.html">Privatisation</a></li>
+          <li><a href="../en/restructuring-en.html">Restructuring</a></li>
         </ul>
       </li>
       <li> <a href="#">M&amp;A</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
@@ -33,11 +33,11 @@
         <ul class="drop-down one-column hover-expand">
           <!-- second level drop down -->
           
-          <li><a href="../en/m&a-eng.html">M&amp;A</a></li>
-          <li><a href="../en/asset-acquisition-eng.html">Acquisition process </a></li>
-          <li><a href="../en/asset-sale-eng.html">Sale process</a></li>
-          <li><a href="../en/acquisition-finance-eng.html">Transaction financing</a></li>
-          <li><a href="../en/post-acquisition-eng.html">Post-acquisition services</a></li>
+          <li><a href="../en/m&a-en.html">M&amp;A</a></li>
+          <li><a href="../en/asset-acquisition.html">Acquisition process </a></li>
+          <li><a href="../en/asset-sale.html">Sale process</a></li>
+          <li><a href="../en/acquisition-finance.html">Transaction financing</a></li>
+          <li><a href="../en/post-acquisition-en.html">Post-acquisition services</a></li>
         </ul>
       </li>
       <li> <a href="#">PRIVATE EQUITY</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
@@ -45,7 +45,7 @@
         <ul class="drop-down one-column hover-expand">
           <!-- second level drop down -->
           
-          <li><a href="../en/pe-eng.html">Private equity</a></li>
+          <li><a href="../en/pe-en.html">Private equity</a></li>
         </ul>
       </li>
       <li> <a href="#">REAL ESTATE</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
@@ -53,8 +53,8 @@
         <ul class="drop-down one-column hover-expand">
           <!-- second level drop down -->
           
-          <li><a href="../en/re-finance-eng.html">Real estate finance</a></li>
-          <li><a href="../en/re-sale-purchase-eng.html">Real estate sale and purchase</a></li>
+          <li><a href="../en/re-finance-en.html">Real estate finance</a></li>
+          <li><a href="../en/re-sale-purchase-en.html">Real estate sale and purchase</a></li>
         </ul>
       </li>
       <li> <a href="#">HOSPITALITY</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
@@ -62,9 +62,9 @@
         <ul class="drop-down one-column hover-expand">
           <!-- second level drop down -->
           
-          <li><a href="../en/hotel-finance-eng.html">Hospitality finance</a></li>
-          <li><a href="../en/hotel-sale-eng.html">Hotel sale and purchase</a></li>
-          <li><a href="../en/health-spa-eng.html">Health spa</a></li>
+          <li><a href="../en/hotel-finance.html">Hospitality finance</a></li>
+          <li><a href="../en/hotel-sale.html">Hotel sale and purchase</a></li>
+          <li><a href="../en/health-spa-en.html">Health spa</a></li>
         </ul>
       </li>
       <li> <a href="#">PROJECT FINANCE</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
@@ -72,7 +72,7 @@
         <ul class="drop-down one-column hover-expand">
           <!-- second level drop down -->
           
-          <li><a href="../en/project-finance-eng.html">Project finance</a></li>
+          <li><a href="../en/project-finance-en.html">Project finance</a></li>
         </ul>
       </li>
       <li> <a href="#">VALUATION</a> <i class="fa fa-angle-right"></i> <!-- fontAwesome icon -->
@@ -80,15 +80,15 @@
         <ul class="drop-down one-column hover-expand">
           <!-- second level drop down -->
           
-          <li><a href="../en/valuation-eng.html">Valuation</a></li>
+          <li><a href="../en/valuation-en.html">Valuation</a></li>
         </ul>
       </li>
     </ul>
   </li>
-  <li><a href="../en/business-opps-eng.html">BUSINESS OPPORTUNITIES</a></li>
-  <li><a href="../en/investment-properties-eng.html">INVESTMENT PROPERTIES</a></li>
+  <li><a href="../en/business-opps.html">BUSINESS OPPORTUNITIES</a></li>
+  <li><a href="../en/investment-properties-en.html">INVESTMENT PROPERTIES</a></li>
   <li><a href="../en/blog-en.html">NEWS AND POSTS</a></li>
-  <li><a href="../en/references-eng.html">REFERENCES</a></li>
+  <li><a href="../en/references-en.html">REFERENCES</a></li>
   <li><a href="../en/contact_us.html">CONTACT US</a></li>
 </ul>
 </div>
