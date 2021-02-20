@@ -214,6 +214,7 @@
     margin-right: 0.5em;
     margin-left: 0.2em;
 }
+
 #linkedin {
     font-size: 2em;
 }
@@ -406,4 +407,13 @@
         padding: 0px;
         width: 50%;
     }
+#linkedin {
+    font-size: 1.4em;
+    margin-left: auto;
+}
+#twitter {
+    font-size: 1.4em;
+    margin-left: auto;
+}
+  
 }
