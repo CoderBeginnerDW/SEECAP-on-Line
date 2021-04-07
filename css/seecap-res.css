@@ -377,6 +377,14 @@ a {
         clear: none;
         float: left;
     }
+  .vesti_slikelight2 {
+        width: 35%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        margin-top: 1%
+        clear: none;
+        float: right;
+    }
     /*end lightbox*/
     /*reference*/
     .ref_uzi {
