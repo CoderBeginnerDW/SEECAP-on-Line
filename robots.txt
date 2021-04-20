@@ -1,2 +1,5 @@
-User-agent: *
-Allow: /
+User-Agent: *
+Disallow:
+Sitemap: https://www.seecap.com/
+Sitemap: https://www.seecap.com/en
+Sitemap: https://www.seecap.com/ru
