@@ -240,11 +240,23 @@ a {
         font-weight: 300;
         color: #000;
     }
+    ul li::marker {
+    color: darkred;
+  }
+  ul.bluemarker li::marker {
+    color: darkblue;
+  }
     .vest_solo ol li {
         line-height: 1.5em;
         font-size: 1em;
         font-weight: 300;
     }
+    ol li::marker {
+    color: darkred;
+  }
+  ol.bluemarker li::marker {
+    color: darkblue;
+  }
     .vest_solo img {
         margin-left: auto;
         margin-right: auto;
@@ -892,11 +904,27 @@ a {
         font-size: 1em;
         font-weight: 300;
     }
+  
+  ul li::marker {
+    color: darkred;
+  }
+  ul.bluemarker li::marker {
+    color: darkblue;
+  }
+  
     .vest_solo ol li {
         line-height: 1.5em;
         font-size: 1em;
         font-weight: 300;
     }
+  
+  ol li::marker {
+    color: darkred;
+  }
+  ol.bluemarker li::marker {
+    color: darkblue;
+  }
+  
     .vest_solo img {
         margin-left: auto;
         margin-right: auto;
