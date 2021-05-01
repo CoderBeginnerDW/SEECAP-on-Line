@@ -1111,7 +1111,7 @@ a {
   background-repeat: repeat;
   padding: 0.6em 1.8em;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
   text-align: center;      
   border-radius: 6px;    
     }
@@ -1137,7 +1137,7 @@ a {
         letter-spacing: 0.1em;
             }
     .more-blog2 {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   background-color: #f7e847;
   background-image: url(../images/decor_inside.png);
   background-repeat: repeat;
