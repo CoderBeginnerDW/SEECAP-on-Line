@@ -393,7 +393,7 @@ a {
         width: 35%;
         margin-left: 1%;
         margin-bottom: 1%;
-        margin-top: 1%
+        margin-top: 1%;
         clear: none;
         float: right;
     }
@@ -1346,9 +1346,10 @@ a {
     margin-right: 15px;
     margin-left: 0;
 }
-th {
+
+th:nth-child(even) {
     color: #050505;
-    background-color: #C2CBE6;
+    background-color: #C2CBE6;  
 }
 tr:nth-child(even) {
     background-color: #CCC;
