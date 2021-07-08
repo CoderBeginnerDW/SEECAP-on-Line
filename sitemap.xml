@@ -9,22 +9,22 @@
 
 <url>
   <loc>https://www.seecap.com/</loc>
-  <lastmod>2021-06-13T10:40:50+00:00</lastmod>
+  <lastmod>2021-07-03T17:53:45+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/en/</loc>
-  <lastmod>2021-06-13T10:41:44+00:00</lastmod>
+  <lastmod>2021-07-03T17:52:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/ru/</loc>
-  <lastmod>2021-06-13T10:42:21+00:00</lastmod>
+  <lastmod>2021-07-03T17:50:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/index.html</loc>
-  <lastmod>2021-06-13T10:40:50+00:00</lastmod>
+  <lastmod>2021-07-03T17:53:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -154,7 +154,7 @@
 </url>
 <url>
   <loc>https://www.seecap.com/sr/clanci.html</loc>
-  <lastmod>2021-06-01T21:28:20+00:00</lastmod>
+  <lastmod>2021-07-04T18:27:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -189,12 +189,12 @@
 </url>
 <url>
   <loc>https://www.seecap.com/sr/sitemap-sr.html</loc>
-  <lastmod>2021-06-01T21:28:31+00:00</lastmod>
+  <lastmod>2021-06-27T17:21:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/en/index.html</loc>
-  <lastmod>2021-06-13T10:41:44+00:00</lastmod>
+  <lastmod>2021-07-03T17:52:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -289,7 +289,7 @@
 </url>
 <url>
   <loc>https://www.seecap.com/en/investment-properties-en.html</loc>
-  <lastmod>2021-06-01T21:32:29+00:00</lastmod>
+  <lastmod>2021-07-07T20:08:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -324,7 +324,7 @@
 </url>
 <url>
   <loc>https://www.seecap.com/ru/index.html</loc>
-  <lastmod>2021-06-13T10:42:21+00:00</lastmod>
+  <lastmod>2021-07-03T17:50:35+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -474,18 +474,18 @@
 </url>
 <url>
   <loc>https://www.seecap.com/sr/cene-poljzemljiste-2020.html</loc>
-  <lastmod>2021-06-01T21:28:19+00:00</lastmod>
+  <lastmod>2021-07-03T18:04:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/sr/agrocompany-sale.html</loc>
-  <lastmod>2021-06-26T17:20:34+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2021-07-03T18:03:38+00:00</lastmod>
+  <priority>1</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/en/golden-hillside.html</loc>
   <lastmod>2021-06-01T21:32:27+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>1</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/sr/ipard-m7-srbija.html</loc>
@@ -649,13 +649,18 @@
 </url>
 <url>
   <loc>https://www.seecap.com/en/agroland-prices.html</loc>
-  <lastmod>2021-06-01T21:32:24+00:00</lastmod>
+  <lastmod>2021-07-03T18:02:20+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/en/agrocompany-sale.html</loc>
-  <lastmod>2021-06-23T06:29:08+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2021-07-03T18:01:26+00:00</lastmod>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://www.seecap.com/en/imt.html</loc>
+  <lastmod>2021-07-07T20:17:57+00:00</lastmod>
+  <priority>1</priority>
 </url>
 <url>
   <loc>https://www.seecap.com/en/belmedic-acquisition.html</loc>
@@ -674,7 +679,7 @@
 </url>
 <url>
   <loc>https://www.seecap.com/en/healthcare-in-serbia.html</loc>
-  <lastmod>2021-06-01T21:32:28+00:00</lastmod>
+  <lastmod>2021-07-04T19:33:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
